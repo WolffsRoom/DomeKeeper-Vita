@@ -1,0 +1,161 @@
+Dome Keeper PSVita Port - DetailsVitaPort
+
+Projeto principal trabalhado:
+C:\Users\wolff\Documents\SDKVita\Dome Keeper.v5.0.4\GOGVersion\ExtractPCK
+
+Base de referencia recente:
+C:\Users\wolff\Documents\SDKVita\Dome Keeper.v5.0.4\GOGVersion\NewExtractPCK
+
+Resumo geral:
+O objetivo foi portar Dome Keeper para PSVita usando Godot_v3.5-rc5-vita. O jogo inicialmente dava C2-12828-1 antes de chegar ao menu inicial. Depois de varias correcoes, o jogo passou a abrir no Vita, tocar musica de fundo e chegar ao menu. Em seguida, o fluxo Novo Jogo / LoadoutStage tambem foi ajustado ate conseguir chegar ao LevelStage/Map. O estado final antes do restore era: o jogo entrava na tela do jogo em si sem crash, mas o Map/LevelStage estavam visualmente quebrados, com HUD/pause inconsistentes e performance muito baixa, em torno de 7 FPS.
+
+1. Ajustes que ajudaram o jogo a abrir no menu inicial sem C2-12828-1
+
+- Resolucao reduzida:
+  O projeto foi ajustado para resolucao de Vita, primeiro em 960x544 e depois revisado para 960x540 em project.godot. A motivacao foi evitar renderizacao em resolucoes altas do PC, que pressionavam VRAM/CDRAM do Vita.
+
+- Inclusao de arquivos de dados no PCK:
+  Foi identificado que arquivos como .yaml poderiam nao ser exportados por padrao. Isso podia causar loops ou leituras invalidas no Vita, especialmente em Data.gd ao ler properties.yaml/upgrades.yaml. O export_presets.cfg foi ajustado para incluir *.yaml, *.json, *.txt e *.csv.
+
+- Travas em leitura de dados:
+  Data.gd recebeu verificacoes para evitar continuar lendo arquivo quando File.open falha. Isso evitou loop infinito/uso alto de CPU quando algum arquivo de dados nao existe no PCK.
+
+- Remocao/desativacao de integracoes externas:
+  GodotSteam e PlayFab foram removidos ou neutralizados em pontos criticos, porque geravam parse errors, dependencias de DLL/plugin e risco de rede/thread no boot. Backend/PlayFab tambem foram tratados para nao quebrar o carregamento.
+
+- Audio:
+  A musica de fundo foi restaurada depois de testes. Tambem foi investigado que os WAVs importados sem compressao podiam consumir muita RAM. A recomendacao registrada foi recomprimir WAVs para IMA-ADPCM/22050Hz e apagar caches .sample antigos para forcar reimport.
+
+- Shaders:
+  Alguns shaders tinham constantes tipo 0f/0.5f/1f, invalidas no Godot 3.x usado. Um caso recorrente foi o shader com:
+  COLOR = mix(vec4(0f), output, clamp(im, 0, 1));
+  A correcao esperada e usar constantes GLSL validas, como 0.0, 0.5, 1.0.
+
+- Texturas/import:
+  Houve problemas com .stex corrompido ou importado incorretamente, especialmente PNGs lidos como WebP. Foram usadas pastas de referencia/original para recuperar recursos quando texturas sumiam.
+
+2. Ajustes no menu inicial / TitleStage
+
+- Load.png:
+  A imagem Load.png foi usada/substituida como fundo do menu inicial em alguns testes, porque video/loading inicial no Vita podia causar C2-12828-1.
+
+- TitleStage de versao mais nova:
+  Foi testada compatibilidade do TitleStage da SteamVersion, preservando backup. A ideia era avaliar se elementos novos eram compativeis com a base atual.
+
+- WhatsNewArea2:
+  Foi criado/copiadamente um WhatsNewArea2 para informacoes do port, tentando reaproveitar animacao do WhatsNewArea original.
+
+3. Ajustes para Novo Jogo / LoadoutStage
+
+- LoadoutStage original era pesada:
+  Foi identificado que a tela "Escolha seu arsenal" original funciona quase como uma cena de gameplay/preview, carregando mapa, domo e varios elementos. No Vita isso gerava estouro ou travamentos.
+
+- LoadoutStage simplificada:
+  Em testes, a tela Novo Jogo foi simplificada para manter titulo "Escolha seu arsenal", background em 960x544/960x540, menu de escolhas e botoes. Remover totalmente elementos pesados permitiu abrir no Vita.
+
+- Estetica do Loadout:
+  Foram feitos ajustes de background, escurecimento, sombras/fade atras do menu e textos, animacoes de entrada/saida e tentativa de manter estilo do titulo original.
+
+- Resultado:
+  O Novo Jogo passou a abrir no Vita. O botao Prosseguir passou a rodar animacao e avancar para o carregamento do LevelStage.
+
+4. Ajustes para chegar ao LevelStage/Map
+
+- Checkpoints detalhados de loading:
+  O carregamento do LevelStage foi quebrado em etapas, por exemplo:
+  01/19 validating loadout
+  03/19 creating dome
+  05/19 creating game mode relichunt
+  06/19 loading map scene
+  Isso ajudou a saber onde o Vita parava antes do C2-12828-1.
+
+- Dome leve:
+  Foi criado/testado DomeVita.gd para instanciar uma versao simplificada do domo, reduzindo dependencias pesadas. Em alguns momentos o domo perdeu sprites; depois os sprites principais foram recuperados usando texturas reais do dome1.
+
+- Relichunt leve:
+  Relichunt.tscn/Relichunt.gd foram aliviados para nao carregar camadas de musica/sons especificos logo no init. Isso ajudou a passar do checkpoint "creating game mode relichunt".
+
+- MapVita:
+  Foi criado MapVita.gd como fallback leve para substituir Map.tscn em testes. Ele tinha stubs para funcoes esperadas pelo jogo, MapLightsVita.gd para evitar erro em update_light_poly, e VitaTile.gd para blocos simples.
+
+- Resultado do MapVita:
+  O jogo finalmente conseguiu chegar na tela do jogo em si no Vita sem crash. A memoria reportada nessa fase ficou aproximadamente:
+  RAM: 156 MB de 365 MB
+  CDRAM: 82 MB de 112 MB
+  FPS: cerca de 7 FPS
+
+- Estado visual/funcional do MapVita:
+  Apesar de abrir, o mapa ficou totalmente quebrado/incompleto, com blocos, alinhamento ruim, HUD sumindo em alguns fluxos e pause inconsistente. O jogo nao estava funcional como gameplay real.
+
+5. PauseMenu e HUD
+
+- PauseMenu:
+  Foi testado um PauseMenuVita simples porque no Vita o jogo pausava, mas o menu normal nao renderizava. Depois o usuario preferiu voltar ao PauseMenu normal otimizado.
+
+- Possivel causa:
+  O popup poderia estar herdando pause do LevelStage. Foi testado forcar pause_mode = PROCESS no PauseMenu normal.
+
+- HUD:
+  O HUD sumiu em alguns testes com MapVita. A suspeita foi o fluxo da animacao de pouso/Impact: o HUD era movido para fora e so voltava no sinal landed. Com cenas leves, esse fluxo podia nao completar corretamente.
+
+6. Restore recente a partir do NewExtractPCK
+
+- Como o LevelStage/Map ficaram muito quebrados com os fallbacks, foi solicitado restaurar a versao do NewExtractPCK para voltar do zero.
+
+- Restaurado:
+  stages/level
+  content/map
+
+- Backup criado antes do restore:
+  C:\Users\wolff\Documents\SDKVita\Dome Keeper.v5.0.4\_codex_backups\restore-newpck-20260608-212103
+
+- Depois do restore:
+  project.godot ajustado para 960x540.
+  content/map/Map.tscn ajustado em ViewportRender, ViewportRenderBackground e shader_param/screen_size para 960x540.
+
+- Erro corrigido apos restore:
+  Parser Error: The method "instance" isn't declared on base "String".
+  Causa: alguns codigos chamavam Data.DROP_SCENES.get(...).instance(), mas DROP_SCENES guarda caminhos de texto.
+  Correcao aplicada:
+  Data.DROP_SCENES.get(...).instance() -> Data.dropScene(...).instance()
+  Arquivos corrigidos:
+  stages/level/LevelStage.gd
+  stages/level/Cheats.gd
+  content/map/Map.gd
+
+7. Estado atual recomendado
+
+- A base atual voltou a usar LevelStage/Map restaurados do NewExtractPCK, com resolucao 960x540 e correcao de DROP_SCENES.
+
+- O proximo passo ideal e testar no PC primeiro:
+  1. Abrir Novo Jogo.
+  2. Prosseguir ate LevelStage.
+  3. Verificar se Map.tscn original renderiza corretamente.
+  4. Verificar console por erros antes de exportar para Vita.
+
+- Depois, testar no Vita:
+  Se voltar C2-12828-1, usar os checkpoints detalhados novamente e aplicar cortes menores no Map.tscn original, evitando trocar tudo por MapVita de uma vez.
+
+8. Pontos de atencao para proximas tentativas
+
+- Evitar substituir Map.tscn inteiro cedo demais.
+  O MapVita provou que o crash pode ser contornado, mas quebrou gameplay/visual/performance. Melhor agora partir do Map.tscn original e remover pesos por etapas.
+
+- Candidatos a corte no Map.tscn original:
+  ViewportLights 2048x2048
+  ViewportBackgroundAlpha 2048x2048
+  ViewportRocks 2048x2048
+  shaders de mapa
+  Critters
+  sons de tile/drop
+  BorderDecorations
+  Shockwave
+
+- Manter backups antes de cada corte.
+
+- Testar sempre em ordem:
+  PC sem erro de parser/runtime.
+  Export PCK.
+  Vita com checkpoint de loading visivel.
+
+Fim do resumo.
