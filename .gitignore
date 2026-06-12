@@ -3,3 +3,9 @@ Decompiling Dome Keeper PCK.md
 *.tmp
 .DS_Store
 Thumbs.db
+
+# Build artifacts (too large for git)
+/Release/
+*.pck
+__pycache__/
+*.pyc

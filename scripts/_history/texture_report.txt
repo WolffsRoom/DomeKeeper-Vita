@@ -1,0 +1,1454 @@
+RELATORIO DE TEXTURAS - VITA
+Pasta: C:\Users\wolff\Documents\SDKVita\Dome Keeper.v5.0.4\GOGVersion\VitaBuild
+Total: 1445 | Erros: 0
+
+=== ACIMA DO LIMITE ABSOLUTO (>4096px): 0 ===
+
+=== ACIMA DO RECOMENDADO: 301 ===
+  876x240 -> recomendado 512x256 | Discord-Logo+Wordmark-White.png
+  960x327 -> recomendado 512x256 | domekeeper_logo.png
+  960x540 -> recomendado 512x256 | Load.png
+  1920x1080 -> recomendado 512x256 | Splash_Screen.png
+  2280x1440 -> recomendado 512x256 | content\caves\cavecolors.png
+  966x60 -> recomendado 512x256 | content\caves\bombcave\bombcave_sheet.png
+  891x102 -> recomendado 512x256 | content\caves\bombcave\cavemine_explosion_sheet.png
+  635x81 -> recomendado 512x256 | content\caves\cobaltcave\cobaltcave_sheet.png
+  936x92 -> recomendado 512x256 | content\caves\halloweencave\corpses_sheet.png
+  770x116 -> recomendado 512x256 | content\caves\halloweencave\halloweencave_sheet.png
+  1140x100 -> recomendado 512x256 | content\caves\helmetextensioncave\helmetextensioncave_sheet.png
+  660x87 -> recomendado 512x256 | content\caves\mushroomcave\mushroomcave-Sheet.png
+  960x506 -> recomendado 512x256 | content\caves\mushroomcave\mushroomcave.png
+  1920x1080 -> recomendado 512x256 | content\caves\mushroomcave\mushroomcavecolor.png
+  644x84 -> recomendado 512x256 | content\caves\portalcave\portalcave_sheet.png
+  888x136 -> recomendado 512x256 | content\caves\seedcave\seedcave-Sheet.png
+  592x272 -> recomendado 512x256 | content\caves\teleportcave\teleportcave-Sheet.png
+  4096x403 -> recomendado 512x256 | content\dome\miroplayerfarb.png
+  4096x403 -> recomendado 512x256 | content\dome\miroplayergrey.png
+  4096x807 -> recomendado 512x256 | content\dome\playercolo.png
+  4096x40 -> recomendado 512x256 | content\dome\cellar\relic_lock-Sheet+gif.png
+  1200x600 -> recomendado 512x256 | content\dome\collapse\collapse-sheet.png
+  672x182 -> recomendado 512x256 | content\dome\dome1\station\steuerkonsole-Sheet.png
+  936x189 -> recomendado 512x256 | content\dome\dome2\station\station-Sheet.png
+  801x544 -> recomendado 512x256 | content\dome\dome3\artydome.png
+  855x144 -> recomendado 512x256 | content\dome\dome3\station\station3-sheet.png
+  672x130 -> recomendado 512x256 | content\dome\dome4\station\steuerkonsole-Sheet.png
+  1107x68 -> recomendado 512x256 | content\dome\minerdome\minerdome_fuelstation_sheet.png
+  676x70 -> recomendado 512x256 | content\dome\minerdome\minerdome_tank_sheet.png
+  222x264 -> recomendado 512x256 | content\gadgets\blastMining\blastminung_reference-export.png
+  891x102 -> recomendado 512x256 | content\gadgets\blastMining\mine_explosion-sheet.png
+  960x384 -> recomendado 512x256 | content\gadgets\cobaltbomb\explosion.png
+  512x384 -> recomendado 512x256 | content\gadgets\cobaltbomb\GroundBurst.png
+  814x198 -> recomendado 512x256 | content\gadgets\drillbot\drillbot-Sheet.png
+  814x198 -> recomendado 512x256 | content\gadgets\drillbot\drillbot2-Sheet.png
+  688x59 -> recomendado 512x256 | content\gadgets\mineraltree\mineraltree-Sheet.png
+  480x270 -> recomendado 512x256 | content\gadgets\orchard\roots_ref.png
+  542x122 -> recomendado 512x256 | content\gadgets\orchard\shreelds_ref.png
+  612x184 -> recomendado 512x256 | content\gadgets\orchard\dome2\orchard2-Sheet.png
+  816x49 -> recomendado 512x256 | content\gadgets\repellent\repellent cloud sheet.png
+  1564x196 -> recomendado 512x256 | content\gadgets\repellent\repellent sprite sheet.png
+  598x212 -> recomendado 512x256 | content\gadgets\repellent\repellent_sprite_sheet_sworddome_sheet.png
+  1050x96 -> recomendado 512x256 | content\gadgets\shield\overcharged sheet.png
+  4096x324 -> recomendado 512x256 | content\gadgets\shield\shieldproperties1_sheet.png
+  4096x376 -> recomendado 512x256 | content\gadgets\shield\shieldproperties2_sheet.png
+  1452x30 -> recomendado 512x256 | content\gadgets\teleporter\teleporter-Sheet.png
+  960x357 -> recomendado 512x256 | content\gamemode\prestige\rocket\reference_rockethub.png
+  1854x288 -> recomendado 512x256 | content\gamemode\prestige\rocket\rockethub-Sheet.png
+  406x449 -> recomendado 512x256 | content\gamemode\unlockables\card-back.png
+  960x540 -> recomendado 512x256 | content\keeper\darkness.png
+  136x588 -> recomendado 512x256 | content\keeper\keeper1\player1\player1_supersheet.png
+  136x588 -> recomendado 512x256 | content\keeper\keeper1\player1\player1_supersheet_buffed.png
+  688x473 -> recomendado 512x256 | content\keeper\keeper2\player1\player1_sheet.png
+  688x473 -> recomendado 512x256 | content\keeper\keeper2\player1\player1_sheet_buffed.png
+  384x282 -> recomendado 512x256 | content\keeper\keeper2\player1\shootingdirection_ref.png
+  288x288 -> recomendado 512x256 | content\map\border\resources_sheet.png
+  960x960 -> recomendado 512x256 | content\map\border\tile_sheet_blue.png
+  960x960 -> recomendado 512x256 | content\map\border\tile_sheet_jungle.png
+  960x960 -> recomendado 512x256 | content\map\border\tile_sheet_red.png
+  960x960 -> recomendado 512x256 | content\map\border\tile_sheet_rock.png
+  960x960 -> recomendado 512x256 | content\map\border\tile_sheet_rock_normal.png
+  960x960 -> recomendado 512x256 | content\map\border\tile_sheet_yellow.png
+  649x504 -> recomendado 512x256 | content\map\chamber\relicdoor-lights-switch-reference1.png
+  649x504 -> recomendado 512x256 | content\map\chamber\relicdoor-lights-switch-reference2.png
+  880x40 -> recomendado 512x256 | content\map\chamber\gadget\gadget_chamber_sheet.png
+  900x158 -> recomendado 512x256 | content\map\chamber\relic\relic sprite sheet.png
+  4096x250 -> recomendado 512x256 | content\map\chamber\relic\relic_chamber sprite sheet.png
+  720x96 -> recomendado 512x256 | content\map\chamber\relicswitch\switch-sheet.png
+  1920x1080 -> recomendado 512x256 | content\map\decorations\decoration_plants.png
+  480x270 -> recomendado 512x256 | content\map\decorations\reference.png
+  960x540 -> recomendado 512x256 | content\map\decorations\referencemiro.png
+  856x544 -> recomendado 512x256 | content\map\decorations\fuzzy\reference.png
+  856x544 -> recomendado 512x256 | content\map\decorations\fuzzy\reference_old.png
+  856x544 -> recomendado 512x256 | content\map\decorations\mushroom\reference.png
+  856x544 -> recomendado 512x256 | content\map\decorations\mushroom\reference_new.png
+  856x544 -> recomendado 512x256 | content\map\decorations\pointy plant\reference.png
+  856x544 -> recomendado 512x256 | content\map\decorations\seaweed\reference.png
+  960x540 -> recomendado 512x256 | content\map\decorations\web\reference.png
+  288x288 -> recomendado 512x256 | content\map\tile\cracks_big.png
+  960x531 -> recomendado 512x256 | content\map\tile\new_rocks\screenshot_01.png
+  960x531 -> recomendado 512x256 | content\map\tile\new_rocks\screenshot_02.png
+  1425x413 -> recomendado 512x256 | content\monster\Beast\sheet.png
+  729x118 -> recomendado 512x256 | content\monster\Beast\beast old\sheet.png
+  2544x447 -> recomendado 512x256 | content\monster\bolter\electricity sprite.png
+  640x64 -> recomendado 512x256 | content\monster\bolter\lightning_charge_sheet.png
+  736x64 -> recomendado 512x256 | content\monster\bolter\lightning_sheet.png
+  1700x558 -> recomendado 512x256 | content\monster\bolter\sheet.png
+  840x136 -> recomendado 512x256 | content\monster\breeder\sheet.png
+  3003x255 -> recomendado 512x256 | content\monster\butterfly\sheet.png
+  2600x486 -> recomendado 512x256 | content\monster\diver\sheet.png
+  4096x1021 -> recomendado 512x256 | content\monster\driller\largesheet.png
+  4096x656 -> recomendado 512x256 | content\monster\driller\sheet.png
+  544x544 -> recomendado 512x256 | content\monster\driller\size diff.png
+  660x540 -> recomendado 512x256 | content\monster\flyer\sheet.png
+  900x248 -> recomendado 512x256 | content\monster\hornet\sheet.png
+  2288x324 -> recomendado 512x256 | content\monster\mucker\sheet.png
+  666x630 -> recomendado 512x256 | content\monster\phaser\projectilesheetnewsheet.png
+  1456x456 -> recomendado 512x256 | content\monster\phaser\sheet.png
+  910x168 -> recomendado 512x256 | content\monster\rock walker\sheet.png
+  819x216 -> recomendado 512x256 | content\monster\rock walker\sheet2.png
+  1360x195 -> recomendado 512x256 | content\monster\scarab\armssheet.png
+  3996x1740 -> recomendado 512x256 | content\monster\scarab\sheet.png
+  666x630 -> recomendado 512x256 | content\monster\shifter\projectilesheetnewsheet.png
+  2772x330 -> recomendado 512x256 | content\monster\shifter\sheet.png
+  891x390 -> recomendado 512x256 | content\monster\stag\projectilegroundsheet.png
+  2688x575 -> recomendado 512x256 | content\monster\stag\sheet.png
+  369x540 -> recomendado 512x256 | content\monster\stingray\sheet.png
+  544x544 -> recomendado 512x256 | content\monster\tormentor\holey transformation.png
+  1064x160 -> recomendado 512x256 | content\monster\walker\sheet.png
+  4096x544 -> recomendado 512x256 | content\monster\worm\sheet.png
+  738x126 -> recomendado 512x256 | content\pets\pet1\cat-Sheet.png
+  543x270 -> recomendado 512x256 | content\pets\pet2\pet2positions.png
+  543x270 -> recomendado 512x256 | content\pets\pet2\pet2positionssleep.png
+  646x108 -> recomendado 512x256 | content\pets\pet2\pet2_sheet.png
+  1064x180 -> recomendado 512x256 | content\pets\pet3\pet3_sheet.png
+  756x42 -> recomendado 512x256 | content\pets\pet4\pet4_effect_sheet.png
+  1404x184 -> recomendado 512x256 | content\pets\pet4\pet4_sheet.png
+  960x477 -> recomendado 512x256 | content\pets\pet4\skully.png
+  1194x208 -> recomendado 512x256 | content\shared\explosions\explosions-Sheet.png
+  2008x2088 -> recomendado 512x256 | content\shared\explosions\explosions-Sheet_rough.png
+  512x384 -> recomendado 512x256 | content\weapons\obelisk\AirBurst.png
+  540x70 -> recomendado 512x256 | content\weapons\obelisk\allcolors.PNG
+  800x220 -> recomendado 512x256 | content\weapons\obelisk\DownSheet.png
+  512x384 -> recomendado 512x256 | content\weapons\obelisk\GroundBurst.png
+  906x544 -> recomendado 512x256 | content\weapons\obelisk\stunWave.png
+  800x180 -> recomendado 512x256 | content\weapons\obelisk\UpSheet.png
+  240x336 -> recomendado 512x256 | content\weapons\sword\blade_electricity.png
+  480x336 -> recomendado 512x256 | content\weapons\sword\blade_electricity_anne.png
+  512x384 -> recomendado 512x256 | content\weapons\sword\dustcloud.png
+  132x342 -> recomendado 512x256 | content\weapons\sword\sword_blade-Sheet.png
+  1280x250 -> recomendado 512x256 | content\weather\fog\mist.png
+  640x360 -> recomendado 512x256 | content\weather\snow\freeze-overlay-normal.png
+  640x360 -> recomendado 512x256 | content\weather\snow\freeze-overlay.png
+  629x29 -> recomendado 512x256 | content\worlds\gags\monster_on_landing_spot-Sheet.png
+  1479x76 -> recomendado 512x256 | content\worlds\gags\pushupgagsheet.png
+  924x348 -> recomendado 512x256 | content\worlds\gags\skyray gag.png
+  544x544 -> recomendado 1024x512 | content\worlds\world1\bg.png
+  960x538 -> recomendado 1024x512 | content\worlds\world1\BG2_5.png
+  960x538 -> recomendado 1024x512 | content\worlds\world1\BG3.png
+  960x538 -> recomendado 1024x512 | content\worlds\world1\BG7_1.png
+  960x540 -> recomendado 1024x512 | content\worlds\world1\BG_reference.png
+  960x540 -> recomendado 1024x512 | content\worlds\world1\BG_reference_nodome.png
+  980x96 -> recomendado 512x256 | content\worlds\world1\frontcover_ref.png
+  960x540 -> recomendado 512x256 | content\worlds\world1\World1_6.png
+  960x538 -> recomendado 512x256 | content\worlds\world2\Brandon - World 1 - Thomas Revision3.png
+  960x538 -> recomendado 1024x512 | content\worlds\world2\cellar_background.png
+  960x538 -> recomendado 512x256 | content\worlds\world2\frontcover_ref.png
+  960x538 -> recomendado 512x256 | content\worlds\world2\Layer0.png
+  960x538 -> recomendado 512x256 | content\worlds\world2\Layer1.png
+  960x538 -> recomendado 512x256 | content\worlds\world2\Layer2.png
+  960x538 -> recomendado 512x256 | content\worlds\world2\Layer3.png
+  960x538 -> recomendado 512x256 | content\worlds\world2\Layer4.png
+  960x538 -> recomendado 512x256 | content\worlds\world2\Layer5.png
+  960x538 -> recomendado 512x256 | content\worlds\world2\Layer6.png
+  544x544 -> recomendado 1024x512 | content\worlds\world2\newversion+palette\bg.png
+  426x544 -> recomendado 512x256 | content\worlds\world2\newversion+palette\clouds.png
+  980x117 -> recomendado 512x256 | content\worlds\world2\newversion+palette\Layer2.png
+  960x323 -> recomendado 512x256 | content\worlds\world2\newversion+palette\Layer3.png
+  980x182 -> recomendado 512x256 | content\worlds\world2\newversion+palette\Layer4.png
+  980x266 -> recomendado 512x256 | content\worlds\world2\newversion+palette\Layer5.png
+  960x538 -> recomendado 512x256 | content\worlds\world2\newversion+palette\Layer6.png
+  960x538 -> recomendado 512x256 | content\worlds\world2\newversion+palette\Layer8.png
+  960x538 -> recomendado 512x256 | content\worlds\world2\newversion+palette\reference.png
+  960x540 -> recomendado 1024x512 | content\worlds\world3\cellarbackground.png
+  960x540 -> recomendado 512x256 | content\worlds\world3\front_reference.png
+  960x528 -> recomendado 512x256 | content\worlds\world3\layer1.png
+  960x538 -> recomendado 512x256 | content\worlds\world3\layer11.png
+  960x540 -> recomendado 512x256 | content\worlds\world3\layer12.png
+  960x538 -> recomendado 512x256 | content\worlds\world3\layer13.png
+  960x538 -> recomendado 512x256 | content\worlds\world3\layer14.png
+  960x538 -> recomendado 512x256 | content\worlds\world3\layer15.png
+  960x538 -> recomendado 512x256 | content\worlds\world3\layer3.png
+  960x540 -> recomendado 512x256 | content\worlds\world3\world3_reference.png
+  980x94 -> recomendado 512x256 | content\worlds\world3\new version\1.png
+  245x302 -> recomendado 512x256 | content\worlds\world3\new version\10.png
+  598x462 -> recomendado 512x256 | content\worlds\world3\new version\12.png
+  960x361 -> recomendado 512x256 | content\worlds\world3\new version\13.png
+  980x297 -> recomendado 512x256 | content\worlds\world3\new version\14.png
+  960x538 -> recomendado 512x256 | content\worlds\world3\new version\15.png
+  960x364 -> recomendado 512x256 | content\worlds\world3\new version\3.png
+  436x325 -> recomendado 512x256 | content\worlds\world3\new version\4.png
+  960x436 -> recomendado 512x256 | content\worlds\world3\new version\9.png
+  544x544 -> recomendado 1024x512 | content\worlds\world3\new version\bg.png
+  426x544 -> recomendado 512x256 | content\worlds\world3\new version\clouds.png
+  960x538 -> recomendado 1024x512 | content\worlds\world3\new version\DomeBG_icebones_reference.png
+  960x538 -> recomendado 1024x512 | content\worlds\world3\new version\DomeBG_icebones_reference2.png
+  980x115 -> recomendado 512x256 | content\worlds\world4\1.png
+  960x538 -> recomendado 512x256 | content\worlds\world4\12.png
+  980x156 -> recomendado 512x256 | content\worlds\world4\2.png
+  960x538 -> recomendado 512x256 | content\worlds\world4\3.png
+  848x465 -> recomendado 512x256 | content\worlds\world4\4.png
+  190x464 -> recomendado 512x256 | content\worlds\world4\5.png
+  339x544 -> recomendado 512x256 | content\worlds\world4\6.png
+  360x402 -> recomendado 512x256 | content\worlds\world4\7.png
+  399x277 -> recomendado 512x256 | content\worlds\world4\8.png
+  121x432 -> recomendado 512x256 | content\worlds\world4\9.png
+  544x544 -> recomendado 1024x512 | content\worlds\world4\bg.png
+  426x544 -> recomendado 512x256 | content\worlds\world4\clouds.png
+  960x538 -> recomendado 512x256 | content\worlds\world4\world4_reference.png
+  980x79 -> recomendado 512x256 | content\worlds\world5\1.png
+  607x139 -> recomendado 512x256 | content\worlds\world5\10.png
+  960x538 -> recomendado 512x256 | content\worlds\world5\12.png
+  980x160 -> recomendado 512x256 | content\worlds\world5\2.png
+  980x200 -> recomendado 512x256 | content\worlds\world5\3.png
+  326x279 -> recomendado 512x256 | content\worlds\world5\4.png
+  565x435 -> recomendado 512x256 | content\worlds\world5\5.png
+  290x438 -> recomendado 512x256 | content\worlds\world5\6.png
+  254x388 -> recomendado 512x256 | content\worlds\world5\7.png
+  960x331 -> recomendado 512x256 | content\worlds\world5\8.png
+  980x169 -> recomendado 512x256 | content\worlds\world5\9.png
+  544x544 -> recomendado 1024x512 | content\worlds\world5\bg.png
+  426x544 -> recomendado 512x256 | content\worlds\world5\clouds.png
+  960x538 -> recomendado 1024x512 | content\worlds\world5\DomeBG_Fungi_reference.png
+  960x538 -> recomendado 1024x512 | content\worlds\world5\DomeBG_Fungi_referencepal2.png
+  525x544 -> recomendado 512x256 | content\worlds\world6\Layer10.png
+  709x316 -> recomendado 512x256 | content\worlds\world6\Layer11.png
+  960x538 -> recomendado 512x256 | content\worlds\world6\Layer13.png
+  980x79 -> recomendado 512x256 | content\worlds\world6\Layer2.png
+  980x271 -> recomendado 512x256 | content\worlds\world6\Layer3.png
+  960x332 -> recomendado 512x256 | content\worlds\world6\Layer4.png
+  960x474 -> recomendado 512x256 | content\worlds\world6\Layer5.png
+  695x479 -> recomendado 512x256 | content\worlds\world6\Layer9.png
+  960x540 -> recomendado 512x256 | content\worlds\world6\World6_colors.png
+  960x538 -> recomendado 512x256 | content\worlds\world6\World6_colors2.png
+  960x538 -> recomendado 512x256 | content\worlds\world6\World6_referencedome.png
+  544x544 -> recomendado 512x256 | stages\ending\0 10-16-03-175.png
+  544x544 -> recomendado 512x256 | stages\ending\1 10-16-03-4231.png
+  544x544 -> recomendado 512x256 | stages\ending\10 10-16-05-6793.png
+  544x544 -> recomendado 512x256 | stages\ending\11 10-16-05-9283.png
+  544x544 -> recomendado 512x256 | stages\ending\12 10-16-06-1803.png
+  544x544 -> recomendado 512x256 | stages\ending\13 10-16-06-4343.png
+  544x544 -> recomendado 512x256 | stages\ending\14 10-16-06-6923.png
+  544x544 -> recomendado 512x256 | stages\ending\15 10-16-06-9433.png
+  544x544 -> recomendado 512x256 | stages\ending\16 10-16-07-1933.png
+  544x544 -> recomendado 512x256 | stages\ending\17 10-16-07-4403.png
+  544x544 -> recomendado 512x256 | stages\ending\2 10-16-03-6773.png
+  400x400 -> recomendado 512x256 | stages\ending\21 12-19-18-5409.png
+  544x544 -> recomendado 512x256 | stages\ending\3 10-16-03-9313.png
+  544x544 -> recomendado 512x256 | stages\ending\4 10-16-04-1833.png
+  544x544 -> recomendado 512x256 | stages\ending\5 10-16-04-4353.png
+  544x544 -> recomendado 512x256 | stages\ending\6 10-16-04-6843.png
+  544x544 -> recomendado 512x256 | stages\ending\7 10-16-04-9353.png
+  544x544 -> recomendado 512x256 | stages\ending\8 10-16-05-1793.png
+  544x544 -> recomendado 512x256 | stages\ending\9 10-16-05-4303.png
+  960x540 -> recomendado 512x256 | stages\ending\endscreen.png
+  259x259 -> recomendado 512x256 | stages\ending\qr-code.png
+  711x400 -> recomendado 512x256 | stages\ending\World10Concept_Color2_Example.png
+  711x400 -> recomendado 512x256 | stages\ending\World11Concept_Color4_Example.png
+  960x540 -> recomendado 512x256 | stages\ending\World3_5.png
+  960x540 -> recomendado 512x256 | stages\ending\World4_5.png
+  711x400 -> recomendado 512x256 | stages\ending\World7Color4_Export.png
+  711x400 -> recomendado 512x256 | stages\ending\World8SketchColor4Example.png
+  711x400 -> recomendado 512x256 | stages\ending\World9Concept3_Color3_Export.png
+  426x544 -> recomendado 1024x512 | stages\landing\bg.png
+  426x544 -> recomendado 512x256 | stages\landing\clouds.png
+  2840x770 -> recomendado 512x256 | stages\landing\landingdust-Sheet.png
+  960x360 -> recomendado 512x256 | stages\landing\landingdust.png
+  960x540 -> recomendado 1024x512 | stages\loadout\world\background_00.png
+  480x540 -> recomendado 512x256 | stages\loadout\world\left.png
+  483x544 -> recomendado 512x256 | stages\loadout\world\reference.png
+  861x544 -> recomendado 512x256 | stages\loadout\world\reference_without_frontlayer.png
+  480x540 -> recomendado 512x256 | stages\loadout\world\right.png
+  1920x1080 -> recomendado 512x256 | stages\title\titlescreen.png
+  960x480 -> recomendado 512x256 | systems\localization\flags\ar_SA.png
+  815x544 -> recomendado 512x256 | systems\localization\flags\cs_CZ.png
+  906x544 -> recomendado 512x256 | systems\localization\flags\de_DE.png
+  718x544 -> recomendado 512x256 | systems\localization\flags\dk.png
+  960x480 -> recomendado 512x256 | systems\localization\flags\en_UK.png
+  960x505 -> recomendado 512x256 | systems\localization\flags\en_US.png
+  815x544 -> recomendado 512x256 | systems\localization\flags\es_ES.png
+  801x544 -> recomendado 512x256 | systems\localization\flags\es_LAT.png
+  816x544 -> recomendado 512x256 | systems\localization\flags\es_LAT2.png
+  890x544 -> recomendado 512x256 | systems\localization\flags\fi_FI.png
+  747x544 -> recomendado 512x256 | systems\localization\flags\fo_FO.png
+  815x544 -> recomendado 512x256 | systems\localization\flags\fr_FR.png
+  747x544 -> recomendado 512x256 | systems\localization\flags\he_IL.png
+  960x480 -> recomendado 512x256 | systems\localization\flags\hu_HU.png
+  815x544 -> recomendado 512x256 | systems\localization\flags\id_ID.png
+  815x544 -> recomendado 512x256 | systems\localization\flags\it_IT.png
+  815x544 -> recomendado 512x256 | systems\localization\flags\ja_JA.png
+  500x500 -> recomendado 512x256 | systems\localization\flags\latin.png
+  816x544 -> recomendado 512x256 | systems\localization\flags\nl_NL.png
+  748x544 -> recomendado 512x256 | systems\localization\flags\no_NO.png
+  815x544 -> recomendado 512x256 | systems\localization\flags\pepsi.png
+  870x544 -> recomendado 512x256 | systems\localization\flags\pl_PL.png
+  776x544 -> recomendado 512x256 | systems\localization\flags\pt_BR.png
+  816x544 -> recomendado 512x256 | systems\localization\flags\pt_PT.png
+  815x544 -> recomendado 512x256 | systems\localization\flags\ro_RO.png
+  815x544 -> recomendado 512x256 | systems\localization\flags\ru_RU.png
+  870x544 -> recomendado 512x256 | systems\localization\flags\sv_SE.png
+  815x544 -> recomendado 512x256 | systems\localization\flags\th_TH.png
+  815x544 -> recomendado 512x256 | systems\localization\flags\tr_TR.png
+  815x544 -> recomendado 512x256 | systems\localization\flags\uk_UA.png
+  815x544 -> recomendado 512x256 | systems\localization\flags\vi_VN.png
+  815x544 -> recomendado 512x256 | systems\localization\flags\zh_CN.png
+  815x544 -> recomendado 512x256 | systems\localization\flags\zh_TW.png
+  804x544 -> recomendado 512x256 | systems\style\template.png
+  800x450 -> recomendado 512x256 | tool\Art\back1.png
+  2108x460 -> recomendado 512x256 | tool\Art\future.png
+  800x450 -> recomendado 512x256 | tool\Art\pax.png
+  2108x460 -> recomendado 512x256 | tool\Art\s_182.png
+
+=== DENTRO DO RECOMENDADO: 1144 ===
+  64x64 | icon.png
+  32x32 | icon_32x32.png
+  106x100 | icon_color.png
+  100x100 | light.png
+  320x176 | neu.png
+  1x1 | white_dot.png
+  453x228 | content\caves\cave-Sheet.png
+  126x38 | content\caves\deco_hole06_para.png
+  36x32 | content\caves\pet.png
+  46x30 | content\caves\bombcave\bombcave_alpha.png
+  74x58 | content\caves\bombcave\bombcave_aplha.png
+  84x18 | content\caves\bombcave\cavemine_sheet.png
+  91x46 | content\caves\cobaltcave\cobaltcave_alpha_map.png
+  120x80 | content\caves\cobaltcave\cobaltcave_alpha_map_blurred.png
+  127x81 | content\caves\cobaltcave\ref.png
+  25x21 | content\caves\dronecave\alpha.png
+  375x63 | content\caves\dronecave\dronecave_sheet.png
+  11x22 | content\caves\halloweencave\focus.png
+  120x60 | content\caves\halloweencave\mask_blur.png
+  312x27 | content\caves\halloweencave\skeleton_sheet.png
+  73x15 | content\caves\halloweencave\spookyguys.png
+  376x192 | content\caves\halloweencave\spookyguys_ref.png
+  60x50 | content\caves\helmetextensioncave\alpha.png
+  8x15 | content\caves\mushroomcave\consumable.png
+  66x47 | content\caves\mushroomcave\mushroomcave_alpha_map.png
+  100x80 | content\caves\mushroomcave\mushroomcave_alpha_map_blurred.png
+  128x70 | content\caves\mushroomcave\mushroomcave_reference.png
+  85x36 | content\caves\scannercave\alpha.png
+  504x92 | content\caves\scannercave\scannercavesides_sheet.png
+  85x72 | content\caves\scannercave\scannercave_sheet.png
+  135x60 | content\caves\scannercave\scanner_sheet.png
+  9x10 | content\caves\seedcave\focus.png
+  62x49 | content\caves\seedcave\seedcave_alpha_map.png
+  100x80 | content\caves\seedcave\seedcave_alpha_map_blurred.png
+  92x69 | content\caves\seedcave\seedcave_reference.png
+  92x69 | content\caves\seedcave\seedcave_reference_focus.png
+  100x5 | content\caves\teleportcave\hud_eye_placeable_sheet.png
+  510x51 | content\caves\teleportcave\hud_teleporteye_sheet.png
+  23x22 | content\caves\teleportcave\portal_single.png
+  75x53 | content\caves\teleportcave\teleportcave_alpha_map.png
+  120x80 | content\caves\teleportcave\teleportcave_alpha_map_blurred.png
+  192x24 | content\caves\teleportcave\teleporteye-mine-Sheet.png
+  192x24 | content\caves\teleportcave\teleporteye-swap-Sheet.png
+  256x32 | content\caves\teleportcave\teleporteye-takeout-Sheet.png
+  8x8 | content\critters\eyes\eyes.png
+  15x6 | content\critters\eyes\eyes_sheet.png
+  99x72 | content\critters\mushroomman\pilzmannerl_sheet.png
+  96x64 | content\critters\rat\rat_anne.png
+  64x28 | content\critters\roach\roach_anne.png
+  192x72 | content\critters\worm\worm_anne.png
+  149x66 | content\dome\dome01_colors.png
+  149x66 | content\dome\dome01_colors0.png
+  149x66 | content\dome\dome01_green.png
+  150x107 | content\dome\dome01_reference.png
+  96x72 | content\dome\prestige_engine.png
+  122x46 | content\dome\cellar\keller_back.png
+  147x49 | content\dome\cellar\keller_front.png
+  33x30 | content\dome\cellar\keller_licht_softlightmode.png
+  147x107 | content\dome\cellar\keller_reference.png
+  147x49 | content\dome\cellar\keller_reference_withoutdome.png
+  49x7 | content\dome\cellar\spinning_sphere-Sheet.png
+  84x10 | content\dome\collapse\shards.png
+  128x128 | content\dome\damage_mask\hit_mask.png
+  173x110 | content\dome\dome1\dome\cracksreference.png
+  151x67 | content\dome\dome1\dome\cracks_mask.png
+  151x67 | content\dome\dome1\dome\damaged4.png
+  157x66 | content\dome\dome1\dome\destroyed.png
+  150x66 | content\dome\dome1\dome\dome01_back.png
+  150x66 | content\dome\dome1\dome\dome01_back_alpha.png
+  150x66 | content\dome\dome1\dome\dome01_front.png
+  144x62 | content\dome\dome1\dome\dome01_particle_inner.png
+  127x30 | content\dome\dome1\dome\dome01_shine.png
+  100x60 | content\dome\dome1\dome\dome_launch0.png
+  100x60 | content\dome\dome1\dome\dome_launch1.png
+  100x60 | content\dome\dome1\dome\dome_launch2.png
+  100x60 | content\dome\dome1\dome\dome_launch3.png
+  100x60 | content\dome\dome1\dome\dome_launch4.png
+  100x60 | content\dome\dome1\dome\dome_launch5.png
+  100x60 | content\dome\dome1\dome\dome_launch6.png
+  100x60 | content\dome\dome1\dome\dome_launch7.png
+  100x60 | content\dome\dome1\dome\dome_launch8.png
+  100x60 | content\dome\dome1\dome\dome_launch9.png
+  72x48 | content\dome\dome1\dome\dome_tunnel.png
+  32x32 | content\dome\dome1\dome\empty.png
+  100x60 | content\dome\dome1\dome\rocketdome_fly0.png
+  100x60 | content\dome\dome1\dome\rocketdome_fly1.png
+  100x60 | content\dome\dome1\dome\rocketdome_fly2.png
+  100x60 | content\dome\dome1\dome\rocketdome_fly3.png
+  100x60 | content\dome\dome1\dome\rocketdome_launch1.png
+  100x60 | content\dome\dome1\dome\rocketdome_launch2.png
+  100x60 | content\dome\dome1\dome\rocketdome_launch3.png
+  100x60 | content\dome\dome1\dome\rocketdome_launch4.png
+  32x10 | content\dome\dome1\dome\rocketdome_launchdust0.png
+  32x10 | content\dome\dome1\dome\rocketdome_launchdust1.png
+  32x10 | content\dome\dome1\dome\rocketdome_launchdust2.png
+  32x10 | content\dome\dome1\dome\rocketdome_launchdust3.png
+  136x25 | content\dome\dome1\shredder\shredder-Sheet.png
+  32x26 | content\dome\dome1\station\single.png
+  147x153 | content\dome\dome2\Reference.png
+  126x88 | content\dome\dome2\dome\dome02_back.png
+  126x88 | content\dome\dome2\dome\dome02_back_alpha_a.png
+  126x88 | content\dome\dome2\dome\dome02_back_alpha_b.png
+  82x54 | content\dome\dome2\dome\dome02_collapse0.png
+  82x54 | content\dome\dome2\dome\dome02_collapse1.png
+  82x54 | content\dome\dome2\dome\dome02_collapse2.png
+  82x54 | content\dome\dome2\dome\dome02_collapse3.png
+  82x54 | content\dome\dome2\dome\dome02_collapse4.png
+  82x54 | content\dome\dome2\dome\dome02_collapse5.png
+  128x90 | content\dome\dome2\dome\dome02_cracks.png
+  126x88 | content\dome\dome2\dome\dome02_front.png
+  82x54 | content\dome\dome2\dome\dome02_mask.png
+  122x84 | content\dome\dome2\dome\dome02_particle_inner.png
+  111x74 | content\dome\dome2\dome\dome02_shine.png
+  195x52 | content\dome\dome2\shredder\shredder02-Sheet+gif.png
+  37x52 | content\dome\dome2\shredder\shredder02.png
+  36x64 | content\dome\dome2\station\single.png
+  150x131 | content\dome\dome3\artydomecropped.png
+  173x174 | content\dome\dome3\artydome_CRACKS_reference.png
+  173x174 | content\dome\dome3\artydome_reference.png
+  150x132 | content\dome\dome3\artydome_sti.png
+  150x65 | content\dome\dome3\dome\cracks.png
+  136x62 | content\dome\dome3\dome\dome03_back.png
+  136x62 | content\dome\dome3\dome\dome03_back_alpha.png
+  150x66 | content\dome\dome3\dome\dome03_front.png
+  276x94 | content\dome\dome3\shredder\shredder03-Sheet.png
+  46x47 | content\dome\dome3\shredder\shredder03.png
+  180x14 | content\dome\dome3\shredder\splash-Sheet+gif.png
+  96x21 | content\dome\dome3\shredder\working_overlay.png
+  14x21 | content\dome\dome3\shredder\working_overlay_separate1.png
+  16x20 | content\dome\dome3\shredder\working_overlay_separate2.png
+  45x48 | content\dome\dome3\station\station3.png
+  16x28 | content\dome\dome3\station\station3full.png
+  20x27 | content\dome\dome5\control02.png
+  20x27 | content\dome\dome5\control02_ani0.png
+  20x27 | content\dome\dome5\control02_ani1.png
+  20x27 | content\dome\dome5\control02_ani2.png
+  20x27 | content\dome\dome5\control02_ani3.png
+  20x27 | content\dome\dome5\control02_ani4.png
+  20x27 | content\dome\dome5\control02_ani5.png
+  20x27 | content\dome\dome5\control02_ani6.png
+  20x27 | content\dome\dome5\control02_ani7.png
+  83x45 | content\dome\dome5\dome05_back.png
+  83x45 | content\dome\dome5\dome05_front.png
+  17x24 | content\dome\dome5\shredder02.png
+  15x22 | content\dome\dome5\shredder02_ani0.png
+  15x22 | content\dome\dome5\shredder02_ani1.png
+  15x22 | content\dome\dome5\shredder02_ani2.png
+  136x25 | content\dome\dome5\shredder\shredder-Sheet.png
+  14x17 | content\dome\dome5\station\chair.png
+  256x69 | content\dome\dome5\station\steuerkonsole-Sheet.png
+  27x41 | content\dome\minerdome\fill.png
+  25x6 | content\dome\minerdome\fill_top.png
+  236x97 | content\dome\minerdome\minerdome_back.png
+  20x27 | content\dome\minerdome\minerdome_controlstation.png
+  35x22 | content\dome\minerdome\minerdome_eggstation.png
+  248x99 | content\dome\minerdome\minerdome_front.png
+  17x33 | content\dome\minerdome\minerdome_launcher.png
+  248x111 | content\dome\minerdome\minerdome_ref.png
+  126x6 | content\dome\station\station_alarm_sheet.png
+  17x21 | content\drop\fisch.png
+  19x22 | content\drop\florentin.png
+  14x19 | content\drop\lars.png
+  36x27 | content\drop\resourceshine-Sheet.png
+  8x8 | content\drop\ShredNoise.png
+  10x11 | content\drop\egg\carry.png
+  8x9 | content\drop\egg\egg.png
+  266x24 | content\drop\egg\eggrooting-Sheet.png
+  12x13 | content\drop\egg\focus.png
+  32x8 | content\drop\flash\DropFlash.png
+  18x18 | content\drop\gadget\carried.png
+  22x22 | content\drop\gadget\focussed.png
+  18x18 | content\drop\gadget\gadget.png
+  10x10 | content\drop\iron\carried.png
+  12x12 | content\drop\iron\icon_selector2.png
+  8x8 | content\drop\iron\iron_smol.png
+  23x23 | content\drop\relic\carried.png
+  256x256 | content\drop\relic\distortion.png
+  256x256 | content\drop\relic\distortion_normal.png
+  25x25 | content\drop\relic\focussed.png
+  23x23 | content\drop\relic\relic.png
+  23x23 | content\drop\relic\relic_empty.png
+  7x7 | content\drop\relic\relic_sphere.png
+  7x7 | content\drop\relic\relic_sphere_lilla.png
+  11x12 | content\drop\sand\carried.png
+  13x14 | content\drop\sand\focussed.png
+  9x9 | content\drop\sand\sand_smol.png
+  252x15 | content\drop\seed\mineraltreesamen-Sheet.png
+  252x15 | content\drop\seed\seedroots-Sheet.png
+  8x8 | content\drop\treat\food.png
+  10x10 | content\drop\water\carried.png
+  10x10 | content\drop\water\focussed.png
+  8x8 | content\drop\water\water_smol.png
+  270x90 | content\gadgets\blastMining\blast-Sheet.png
+  191x154 | content\gadgets\blastMining\blastminung_reference.png
+  29x27 | content\gadgets\blastMining\blast_off.png
+  29x25 | content\gadgets\blastMining\blast_tutpic.png
+  12x12 | content\gadgets\blastMining\carried.png
+  30x28 | content\gadgets\blastMining\flames-Sheet.png
+  14x14 | content\gadgets\blastMining\focussed.png
+  56x26 | content\gadgets\blastMining\mine-Sheet.png
+  122x23 | content\gadgets\blastMining\mine.png
+  32x16 | content\gadgets\blastMining\mine_adhesion.png
+  34x24 | content\gadgets\blastMining\mine_adhesion_ref.png
+  192x64 | content\gadgets\cobaltbomb\hit.png
+  256x32 | content\gadgets\cobaltbomb\impact.png
+  192x160 | content\gadgets\cobaltbomb\orbs.png
+  36x30 | content\gadgets\condenser\condenser_front.png
+  36x30 | content\gadgets\condenser\condenser_releaseanim11.png
+  36x30 | content\gadgets\condenser\condenser_releaseanim12.png
+  36x30 | content\gadgets\condenser\emission.png
+  148x63 | content\gadgets\condenser\reference.png
+  34x25 | content\gadgets\converter\concept_sti.png
+  408x100 | content\gadgets\converter\converter-Sheet.png
+  34x25 | content\gadgets\converter\converter_tutpic.png
+  26x11 | content\gadgets\converter\processing_overlay.png
+  84x32 | content\gadgets\drillbot\base-glasoverlay-sheet.png
+  432x99 | content\gadgets\drillbot\base-sheet.png
+  93x22 | content\gadgets\drillbot\base.png
+  163x111 | content\gadgets\drillbot\base_reference.png
+  15x15 | content\gadgets\drillbot\carrie2d.png
+  13x15 | content\gadgets\drillbot\drillbot.png
+  14x14 | content\gadgets\drillbot\drillbot_tutpic.png
+  192x32 | content\gadgets\drillbot\dust.png
+  26x19 | content\gadgets\drillbot\focussed2.png
+  32x19 | content\gadgets\drillbot\focussed2_reference.png
+  25x11 | content\gadgets\drillbot\focussed3.png
+  25x11 | content\gadgets\drillbot\focussed3_reference.png
+  27x33 | content\gadgets\drillbot\tutpic1.png
+  17x9 | content\gadgets\drillbot\tutpic2.png
+  32x14 | content\gadgets\drillbot\tutpic3.png
+  3x9 | content\gadgets\lift\carryline.png
+  384x48 | content\gadgets\lift\lift-build.png
+  24x24 | content\gadgets\lift\lift.png
+  96x96 | content\gadgets\lift\liftorb.png
+  117x23 | content\gadgets\mineraltree\3xiron-3xwater-3xcobalt-ranken-Sheet.png
+  40x60 | content\gadgets\mineraltree\bud_reference.png
+  18x18 | content\gadgets\mineraltree\bud_sheet.png
+  84x71 | content\gadgets\mineraltree\mineraltreesamen_reference.png
+  300x111 | content\gadgets\mineraltree\reference.png
+  8x8 | content\gadgets\mineraltree\seeddrop.png
+  19x17 | content\gadgets\mineraltree\wurzeltile.png
+  26x90 | content\gadgets\obelisk\obelisk.png
+  473x42 | content\gadgets\orchard\roots_ref-Sheet.png
+  486x23 | content\gadgets\orchard\shreelds_sheet.png
+  12x13 | content\gadgets\orchard\dome1\bigger_fruit.png
+  45x45 | content\gadgets\orchard\dome1\bigger_fruit_ref.png
+  84x14 | content\gadgets\orchard\dome1\fruit-Sheet.png
+  45x45 | content\gadgets\orchard\dome1\fruitreference.png
+  45x45 | content\gadgets\orchard\dome1\grow_4.png
+  405x180 | content\gadgets\orchard\dome1\orchard-Sheet.png
+  42x45 | content\gadgets\orchard\dome1\orchard_tutpic.png
+  119x14 | content\gadgets\orchard\dome2\fruit2-Sheet.png
+  37x45 | content\gadgets\orchard\dome2\orchard_tutpic.png
+  48x55 | content\gadgets\orchard\dome3\orchard03.png
+  336x64 | content\gadgets\orchard\hud\fruit_backgroundborder-Sheet.png
+  14x14 | content\gadgets\orchard\hud\fruit_ossewoxt.png
+  14x14 | content\gadgets\orchard\hud\fruit_woxt.png
+  14x14 | content\gadgets\orchard\hud\fruit_woxt_backup.png
+  73x35 | content\gadgets\orchard\minerdome\minerdome_orchard.png
+  16x17 | content\gadgets\probe\marker_tutpic.png
+  50x29 | content\gadgets\probe\probe-Sheet.png
+  96x24 | content\gadgets\probe\probe_marker.png
+  19x4 | content\gadgets\probe\probe_slider.png
+  25x29 | content\gadgets\probe\probe_tutpic.png
+  7x7 | content\gadgets\probe\hud\probe_charge.png
+  7x7 | content\gadgets\probe\hud\probe_charge_slot.png
+  13x4 | content\gadgets\prospectionMeter\background.png
+  13x4 | content\gadgets\prospectionMeter\bar.png
+  20x20 | content\gadgets\prospectionMeter\compassBackground.png
+  13x4 | content\gadgets\prospectionMeter\front.png
+  9x1 | content\gadgets\prospectionMeter\zeiger_eisen.png
+  24x24 | content\gadgets\prospectionMeter\zeiger_eisen_2.png
+  19x19 | content\gadgets\prospectionMeter\zeiger_klein.png
+  4x4 | content\gadgets\prospectionMeter\zeiger_klein_eisen.png
+  4x4 | content\gadgets\prospectionMeter\zeiger_klein_sand.png
+  4x4 | content\gadgets\prospectionMeter\zeiger_klein_wasser.png
+  5x1 | content\gadgets\prospectionMeter\zeiger_sand.png
+  7x1 | content\gadgets\prospectionMeter\zeiger_wasser.png
+  45x3 | content\gadgets\repellent\dreher-Sheet+gif.png
+  10x21 | content\gadgets\repellent\fluid.png
+  10x10 | content\gadgets\repellent\particle1.png
+  3x10 | content\gadgets\repellent\particle2.png
+  45x31 | content\gadgets\repellent\repellentconcept.png
+  45x31 | content\gadgets\repellent\repellent_tutpic.png
+  10x6 | content\gadgets\repellent\hud\bar1.png
+  10x10 | content\gadgets\repellent\hud\bar2.png
+  10x14 | content\gadgets\repellent\hud\bar3.png
+  10x18 | content\gadgets\repellent\hud\bar4.png
+  10x4 | content\gadgets\repellent\hud\charge.png
+  117x72 | content\gadgets\shield\batterie-Sheet.png
+  245x96 | content\gadgets\shield\batterie_overload_sheet+gif.png
+  492x121 | content\gadgets\shield\batterie_reference.png
+  117x110 | content\gadgets\shield\batterie_sword_sheet.png
+  32x8 | content\gadgets\shield\forcefield.png
+  32x32 | content\gadgets\shield\forcefieldglow.png
+  24x24 | content\gadgets\shield\invulnerable.png
+  344x104 | content\gadgets\shield\shield.png
+  151x68 | content\gadgets\shield\shieldreference.png
+  157x148 | content\gadgets\shield\shieldreference2.png
+  296x126 | content\gadgets\shield\shield_dome2.png
+  30x26 | content\gadgets\shield\shield_tutpic.png
+  256x32 | content\gadgets\shield\splash.png
+  10x12 | content\gadgets\shield\hud\bar.png
+  9x18 | content\gadgets\shield\hud\bar1.png
+  9x22 | content\gadgets\shield\hud\bar2.png
+  9x26 | content\gadgets\shield\hud\bar3.png
+  9x30 | content\gadgets\shield\hud\bar4.png
+  5x19 | content\gadgets\shield\hud\bar_laststand.png
+  5x19 | content\gadgets\shield\hud\bar_normal.png
+  5x19 | content\gadgets\shield\hud\bar_overcharge.png
+  10x4 | content\gadgets\shield\hud\charge.png
+  10x4 | content\gadgets\shield\hud\charge_slot.png
+  96x9 | content\gadgets\shield\hud\laststand_sheet.png
+  143x11 | content\gadgets\shield\hud\overcharge_sheet.png
+  2x11 | content\gadgets\stunLaser\cannon.png
+  36x7 | content\gadgets\stunLaser\laserend.png
+  128x133 | content\gadgets\stunLaser\stunlaser_sheet.png
+  14x17 | content\gadgets\stunLaser\stunlaser_tutpic.png
+  13x17 | content\gadgets\teleporter\carry.png
+  13x17 | content\gadgets\teleporter\focus.png
+  20x4 | content\gadgets\teleporter\line.png
+  148x63 | content\gadgets\teleporter\reference.png
+  11x15 | content\gadgets\teleporter\teleporter_active.png
+  11x15 | content\gadgets\teleporter\teleporter_inactive.png
+  33x30 | content\gadgets\teleporter\teleporter_sti.png
+  33x30 | content\gadgets\teleporter\tutpic2.png
+  216x200 | content\gadgets\transportdrone\drone_sheet.png
+  3x4 | content\gamemode\prestige\mini_cobalt.png
+  4x4 | content\gamemode\prestige\mini_iron.png
+  4x4 | content\gamemode\prestige\mini_water.png
+  5x4 | content\gamemode\prestige\multipl_hud.png
+  7x6 | content\gamemode\prestige\score_hud.png
+  52x39 | content\gamemode\prestige\leaderboard\leaderboardicons-sheet.png
+  16x16 | content\gamemode\prestige\leaderboard\leaderboardicons01.png
+  16x16 | content\gamemode\prestige\leaderboard\leaderboardicons02.png
+  16x16 | content\gamemode\prestige\leaderboard\leaderboardicons03.png
+  16x16 | content\gamemode\prestige\leaderboard\leaderboardicons04.png
+  16x16 | content\gamemode\prestige\leaderboard\leaderboardicons05.png
+  16x16 | content\gamemode\prestige\leaderboard\leaderboardicons06.png
+  16x16 | content\gamemode\prestige\leaderboard\leaderboardicons07.png
+  16x16 | content\gamemode\prestige\leaderboard\leaderboardicons08.png
+  16x16 | content\gamemode\prestige\leaderboard\leaderboardicons09.png
+  25x32 | content\gamemode\prestige\rocket\rocket.png
+  40x40 | content\hud\hudborder.png
+  12x12 | content\hud\tileset.png
+  32x8 | content\hud\healthmeter\background1.png
+  38x8 | content\hud\healthmeter\background2.png
+  44x8 | content\hud\healthmeter\background3.png
+  40x8 | content\hud\healthmeter\heart.png
+  27x6 | content\hud\wavemeter\bar.png
+  27x8 | content\hud\wavemeter\bar0.png
+  27x8 | content\hud\wavemeter\bar1.png
+  27x8 | content\hud\wavemeter\bar2.png
+  27x8 | content\hud\wavemeter\bar3.png
+  27x8 | content\hud\wavemeter\bar4.png
+  10x8 | content\hud\wavemeter\hostile.png
+  10x8 | content\hud\wavemeter\hostile_flare.png
+  6x9 | content\hud\wavemeter\time.png
+  72x72 | content\icons\blastmining.png
+  44x44 | content\icons\blastminingblast1.png
+  44x44 | content\icons\blastminingblast2.png
+  44x44 | content\icons\blastminingimpactdetonation.png
+  44x44 | content\icons\blastminingproductiontime1.png
+  44x44 | content\icons\blastminingstickycharge.png
+  44x44 | content\icons\blastminingtriple.png
+  44x44 | content\icons\blastminingwaterless.png
+  72x72 | content\icons\condenser.png
+  44x44 | content\icons\condenserautocollect.png
+  44x44 | content\icons\condenserautoovercharge.png
+  44x44 | content\icons\condenserdoublestorage.png
+  44x44 | content\icons\condenserspeed1.png
+  44x44 | content\icons\condenserspeed2.png
+  72x72 | content\icons\converter.png
+  44x44 | content\icons\converterefficientcobalt.png
+  44x44 | content\icons\converterefficientwater.png
+  44x44 | content\icons\converterironduplication.png
+  44x44 | content\icons\converterirontocobalt.png
+  72x72 | content\icons\dome1.png
+  44x44 | content\icons\dome1damagereduction1.png
+  44x44 | content\icons\dome1damagereduction2.png
+  44x44 | content\icons\dome1health1.png
+  44x44 | content\icons\dome1health2.png
+  44x44 | content\icons\dome2badrepair1.png
+  44x44 | content\icons\dome2badrepair2.png
+  44x44 | content\icons\dome2damagereduction2.png
+  44x44 | content\icons\domehealthmeter.png
+  44x44 | content\icons\domeresourcecounters.png
+  44x44 | content\icons\domesandrepair.png
+  44x44 | content\icons\domewavecount.png
+  44x44 | content\icons\domewavemeter.png
+  44x44 | content\icons\doublelaser.png
+  44x44 | content\icons\drill1.png
+  44x44 | content\icons\drill2.png
+  44x44 | content\icons\drill3.png
+  44x44 | content\icons\drill4.png
+  72x72 | content\icons\drillbot.png
+  44x44 | content\icons\drillbotbuff1.png
+  44x44 | content\icons\drillbotbuffstrength1.png
+  44x44 | content\icons\drillbotbuffstrength2.png
+  44x44 | content\icons\drillbotduplicate.png
+  44x44 | content\icons\drillbotsleepless.png
+  44x44 | content\icons\drillbotstrength1.png
+  44x44 | content\icons\drillbotstrength2.png
+  44x44 | content\icons\drillbotstrength3.png
+  44x44 | content\icons\drillbotstrength4.png
+  44x44 | content\icons\drillbotturnaround.png
+  60x60 | content\icons\icon_dome.png
+  24x24 | content\icons\icon_iron.png
+  24x24 | content\icons\icon_sand.png
+  24x24 | content\icons\icon_water.png
+  44x44 | content\icons\jetpackspeed1.png
+  44x44 | content\icons\jetpackspeed2.png
+  44x44 | content\icons\jetpackspeed3.png
+  44x44 | content\icons\jetpackspeed4.png
+  44x44 | content\icons\jetpackstrength1.png
+  44x44 | content\icons\jetpackstrength2.png
+  44x44 | content\icons\jetpackstrength3.png
+  44x44 | content\icons\jetpackstrength4.png
+  72x72 | content\icons\keeper1.png
+  72x72 | content\icons\keeper2.png
+  44x44 | content\icons\keeper2bundle.png
+  44x44 | content\icons\keeper2bundleinfinite.png
+  44x44 | content\icons\keeper2bundlestopcenter.png
+  44x44 | content\icons\keeper2movement1.png
+  44x44 | content\icons\keeper2movement2.png
+  44x44 | content\icons\keeper2movement3.png
+  44x44 | content\icons\keeper2movement4.png
+  44x44 | content\icons\keeper2pinballcatch.png
+  44x44 | content\icons\keeper2pinballdamage1.png
+  44x44 | content\icons\keeper2pinballdamage2.png
+  44x44 | content\icons\keeper2pinballdamage3.png
+  44x44 | content\icons\keeper2pinballdamage4.png
+  44x44 | content\icons\keeper2pinballdamagefraction.png
+  44x44 | content\icons\keeper2pinballlifetime1.png
+  44x44 | content\icons\keeper2pinballlifetime2.png
+  44x44 | content\icons\keeper2pinballmorespheres1.png
+  44x44 | content\icons\keeper2pinballmorespheres2.png
+  44x44 | content\icons\keeper2pinballreflect.png
+  44x44 | content\icons\keeper2pinballreflectdamage1.png
+  44x44 | content\icons\keeper2pinballreflectdamage2.png
+  44x44 | content\icons\keeper2pinballreflectspeedup1.png
+  44x44 | content\icons\keeper2pinballreflectspeedup2.png
+  44x44 | content\icons\keeper2pinballsplit.png
+  44x44 | content\icons\keeper2rotationalmining2.png
+  44x44 | content\icons\keeper2_3.png
+  70x40 | content\icons\large_unknown.png
+  72x72 | content\icons\laser.png
+  44x44 | content\icons\laseraimline.png
+  44x44 | content\icons\laserbend.png
+  44x44 | content\icons\laserhitprojectiles.png
+  44x44 | content\icons\lasermove1.png
+  44x44 | content\icons\lasermove2.png
+  44x44 | content\icons\lasermove3.png
+  44x44 | content\icons\laserstrength1.png
+  44x44 | content\icons\laserstrength2.png
+  44x44 | content\icons\laserstrength3.png
+  77x77 | content\icons\lift-toobig.png
+  72x72 | content\icons\lift.png
+  44x44 | content\icons\liftcapacity1.png
+  44x44 | content\icons\liftcarrykeeper1.png
+  44x44 | content\icons\liftcarrykeeper2.png
+  44x44 | content\icons\liftorbs.png
+  44x44 | content\icons\liftspeed1.png
+  100x50 | content\icons\loadout_diff1.png
+  100x50 | content\icons\loadout_diff2.png
+  100x50 | content\icons\loadout_diff3.png
+  100x50 | content\icons\loadout_diff4.png
+  70x40 | content\icons\loadout_dome1.png
+  70x40 | content\icons\loadout_dome2.png
+  70x40 | content\icons\loadout_dome3.png
+  33x42 | content\icons\loadout_keeper1-skin0.png
+  39x51 | content\icons\loadout_keeper1-skin1.png
+  33x51 | content\icons\loadout_keeper1-skin2.png
+  33x51 | content\icons\loadout_keeper1-skin3.png
+  70x40 | content\icons\loadout_keeper1.png
+  70x40 | content\icons\loadout_keeper2.png
+  70x40 | content\icons\loadout_keeper3.png
+  70x40 | content\icons\loadout_migration.png
+  70x40 | content\icons\loadout_miner.png
+  70x40 | content\icons\loadout_orchard.png
+  11x11 | content\icons\loadout_pet0.png
+  21x36 | content\icons\loadout_pet1.png
+  30x24 | content\icons\loadout_pet2.png
+  32x56 | content\icons\loadout_pet3.png
+  39x42 | content\icons\loadout_pet4.png
+  70x40 | content\icons\loadout_prestige.png
+  70x40 | content\icons\loadout_relichunt.png
+  70x40 | content\icons\loadout_repellent.png
+  70x40 | content\icons\loadout_shield.png
+  44x44 | content\icons\migrate.png
+  72x72 | content\icons\miner.png
+  44x44 | content\icons\minerrefuel.png
+  44x44 | content\icons\minerwater.png
+  44x44 | content\icons\minoriron.png
+  80x80 | content\icons\monster_beast.png
+  80x80 | content\icons\monster_bigtick.png
+  80x80 | content\icons\monster_bolter.png
+  80x80 | content\icons\monster_butterfly.png
+  80x80 | content\icons\monster_diver.png
+  80x80 | content\icons\monster_flyer.png
+  80x80 | content\icons\monster_mucker.png
+  80x80 | content\icons\monster_rockman.png
+  80x80 | content\icons\monster_shifter.png
+  80x80 | content\icons\monster_tick.png
+  80x80 | content\icons\monster_walker.png
+  80x80 | content\icons\monster_worm.png
+  72x72 | content\icons\orchard-toobig.png
+  72x72 | content\icons\orchard.png
+  44x44 | content\icons\orchardbattlerooting.png
+  44x44 | content\icons\orchardbattlerootingexplosion.png
+  44x44 | content\icons\orchardbattlerootingmore.png
+  44x44 | content\icons\orchardbattleshield.png
+  44x44 | content\icons\orchardbattleshieldsecondlayer.png
+  44x44 | content\icons\orchardbattleshieldstrong.png
+  44x44 | content\icons\orcharddrill1.png
+  44x44 | content\icons\orcharddrill2.png
+  44x44 | content\icons\orcharddrill3.png
+  44x44 | content\icons\orchardduration1.png
+  44x44 | content\icons\orchardduration2.png
+  44x44 | content\icons\orchardduration3.png
+  44x44 | content\icons\orchardjetpack1.png
+  44x44 | content\icons\orchardjetpack2.png
+  44x44 | content\icons\orchardjetpack3.png
+  44x44 | content\icons\orchardovercharge.png
+  44x44 | content\icons\orchardoverchargebuffduration.png
+  44x44 | content\icons\prestigecobalt.png
+  72x72 | content\icons\probe.png
+  44x44 | content\icons\probelong1.png
+  44x44 | content\icons\probepersist1.png
+  44x44 | content\icons\proberecharge.png
+  44x44 | content\icons\probestage1.png
+  44x44 | content\icons\probeswift1.png
+  44x44 | content\icons\prospectionmeter.png
+  44x44 | content\icons\prospectionmeteriron1.png
+  44x44 | content\icons\prospectionmeteriron2.png
+  44x44 | content\icons\prospectionmeterrange1.png
+  44x44 | content\icons\prospectionmeterrange2.png
+  44x44 | content\icons\prospectionmetersand1.png
+  44x44 | content\icons\prospectionmetersand2.png
+  44x44 | content\icons\prospectionmeterwater1.png
+  44x44 | content\icons\prospectionmeterwater2.png
+  44x44 | content\icons\repairbot.png
+  44x44 | content\icons\repairbotefficiency.png
+  44x44 | content\icons\repairbotspeed1.png
+  44x44 | content\icons\repairbotspeed2.png
+  44x44 | content\icons\repairbotstrength1.png
+  44x44 | content\icons\repairbotstrength2.png
+  72x72 | content\icons\repellent-toobig.png
+  72x72 | content\icons\repellent.png
+  44x44 | content\icons\repellentbattledamageovertime.png
+  44x44 | content\icons\repellentbattlehealthreduction.png
+  44x44 | content\icons\repellentbattlelongerhealthreduction.png
+  44x44 | content\icons\repellentbattleslowdown.png
+  44x44 | content\icons\repellentbattleslowdownstun1.png
+  44x44 | content\icons\repellentbattleslowdownstun2.png
+  44x44 | content\icons\repellentbattlestrongerslowdown1.png
+  44x44 | content\icons\repellentbattlestrongerslowdown2.png
+  44x44 | content\icons\repellentdelay1.png
+  44x44 | content\icons\repellentdelay2.png
+  44x44 | content\icons\repellentdelay3.png
+  44x44 | content\icons\repellentovercharge.png
+  44x44 | content\icons\repellentoverchargeduration1.png
+  44x44 | content\icons\repellentoverchargeduration2.png
+  44x44 | content\icons\repellentoverchargestrength1.png
+  44x44 | content\icons\repellentoverchargestrength2.png
+  24x24 | content\icons\sand.png
+  72x72 | content\icons\shield-toobig.png
+  72x72 | content\icons\shield.png
+  44x44 | content\icons\shieldbattleactivateondepletion.png
+  44x44 | content\icons\shieldbattleblastdamage.png
+  44x44 | content\icons\shieldbattledestructionprevention.png
+  44x44 | content\icons\shieldbattleelectroblast.png
+  44x44 | content\icons\shieldbattleinvulnerable.png
+  44x44 | content\icons\shieldbattlelongerafterdepletion.png
+  44x44 | content\icons\shieldbattlereflect.png
+  44x44 | content\icons\shieldbattlereflectshortuses.png
+  44x44 | content\icons\shieldbattlereflectspeedup.png
+  44x44 | content\icons\shieldovercharge.png
+  44x44 | content\icons\shieldoverchargeduration1.png
+  44x44 | content\icons\shieldoverchargeduration2.png
+  44x44 | content\icons\shieldoverchargestrength1.png
+  44x44 | content\icons\shieldoverchargestrength2.png
+  44x44 | content\icons\shieldstrength1.png
+  44x44 | content\icons\shieldstrength2.png
+  44x44 | content\icons\shieldstrength3.png
+  72x72 | content\icons\stunlaser.png
+  44x44 | content\icons\stunlaserautonomy1.png
+  44x44 | content\icons\stunlaserdamage1.png
+  44x44 | content\icons\stunlaserdamage2.png
+  44x44 | content\icons\stunlaserduration1.png
+  44x44 | content\icons\stunlaserduration2.png
+  44x44 | content\icons\stunlaserspeed1.png
+  44x44 | content\icons\stunlaserspeed2.png
+  72x72 | content\icons\sword.png
+  44x44 | content\icons\swordaimline.png
+  44x44 | content\icons\swordblade1.png
+  44x44 | content\icons\swordelectrified.png
+  44x44 | content\icons\swordexplosivereflection.png
+  44x44 | content\icons\swordextendlong1.png
+  44x44 | content\icons\swordextendlong2.png
+  44x44 | content\icons\swordfastreflection.png
+  44x44 | content\icons\swordlargeblade1.png
+  44x44 | content\icons\swordlargeblade2.png
+  44x44 | content\icons\swordlargeblade3.png
+  44x44 | content\icons\swordlongblade1.png
+  44x44 | content\icons\swordlongblade2.png
+  44x44 | content\icons\swordreflection1.png
+  44x44 | content\icons\swordreflection2.png
+  44x44 | content\icons\swordreflection3.png
+  44x44 | content\icons\swordstabexplode.png
+  44x44 | content\icons\swordstabexplodedamage.png
+  44x44 | content\icons\swordstabfast1.png
+  44x44 | content\icons\swordstabfast2.png
+  44x44 | content\icons\swordstabshoot.png
+  72x72 | content\icons\teleporter.png
+  44x44 | content\icons\teleporterteleportduration1.png
+  44x44 | content\icons\teleporterteleportreactivate.png
+  44x44 | content\icons\teleporterteleportresourcesarea.png
+  44x44 | content\icons\teleporterteleportresourcesback.png
+  44x44 | content\icons\teleporterteleportresourcescooldown.png
+  7x8 | content\keeper\droneconc01.png
+  9x6 | content\keeper\droneconc02.png
+  9x12 | content\keeper\droneconc03.png
+  5x6 | content\keeper\droneconc04.png
+  64x64 | content\keeper\hard-light.png
+  13x17 | content\keeper\keepconc01.png
+  12x18 | content\keeper\keepconc02.png
+  13x18 | content\keeper\keepconc03.png
+  13x21 | content\keeper\keepconc04.png
+  128x128 | content\keeper\light.png
+  10x1 | content\keeper\speedline.png
+  3x9 | content\keeper\carryline\carryline.png
+  128x32 | content\keeper\carryline\carrylinebreak.png
+  20x5 | content\keeper\keeper1\player1\booster.png
+  80x20 | content\keeper\keeper1\player1\drill.png
+  80x20 | content\keeper\keeper1\player1\drill_buffed.png
+  52x13 | content\keeper\keeper1\player1\drill_hit_default.png
+  152x36 | content\keeper\keeper1\player1\steuerkonsole-keeper1-Sheet-buffed.png
+  152x36 | content\keeper\keeper1\player1\steuerkonsole-keeper1-Sheet.png
+  10x12 | content\keeper\keeper1\player1\steuerkonsole2-keeper1-Sheet-buffed.png
+  10x12 | content\keeper\keeper1\player1\steuerkonsole2-keeper1-Sheet.png
+  32x32 | content\keeper\keeper2\bundle_polygon.png
+  512x64 | content\keeper\keeper2\central_charge.png
+  256x16 | content\keeper\keeper2\charge_pointer.png
+  80x80 | content\keeper\keeper2\collect.png
+  12x12 | content\keeper\keeper2\dropmarker.png
+  96x32 | content\keeper\keeper2\player1\ammo-spin.png
+  20x5 | content\keeper\keeper2\player1\booster.png
+  80x20 | content\keeper\keeper2\player1\drill.png
+  80x20 | content\keeper\keeper2\player1\drill_buffed.png
+  192x48 | content\keeper\keeper2\player1\pinballhit.png
+  96x32 | content\keeper\keeper2\player1\reflect.png
+  10x5 | content\keeper\keeper2\player1\shootingdirection_arrow.png
+  165x31 | content\keeper\keeper2\player1\shootingdirection_sheet.png
+  24x12 | content\keeper\keeper2\player1\sphere-spin.png
+  160x20 | content\keeper\keeper2\player1\sphere.png
+  160x20 | content\keeper\keeper2\player1\sphere_buffed.png
+  60x12 | content\keeper\keeper2\player1\sphere_overload_sheet.png
+  96x36 | content\keeper\keeper2\player1\sphere_powerlevels_sheet.png
+  10x10 | content\keeper\keeper2\player1\sphere_single.png
+  444x12 | content\keeper\keeper2\player1\sphere_timing_sheet.png
+  24x24 | content\keeper\keeper4\marker.png
+  12x7 | content\keeper\keeper4\drone\drone.png
+  256x32 | content\keeper\keeper4\player1\drill.png
+  96x57 | content\keeper\keeper4\player1\player1_sheet.png
+  6x12 | content\keeper\keeper4\player2\player2.png
+  9x13 | content\keeper\keeper4\player2\player2drill_down0.png
+  9x13 | content\keeper\keeper4\player2\player2drill_down1.png
+  9x13 | content\keeper\keeper4\player2\player2drill_down2.png
+  9x13 | content\keeper\keeper4\player2\player2drill_down3.png
+  9x13 | content\keeper\keeper4\player2\player2drill_left0.png
+  9x13 | content\keeper\keeper4\player2\player2drill_left1.png
+  9x13 | content\keeper\keeper4\player2\player2drill_left2.png
+  9x13 | content\keeper\keeper4\player2\player2drill_left3.png
+  9x13 | content\keeper\keeper4\player2\player2drill_right0.png
+  9x13 | content\keeper\keeper4\player2\player2drill_right1.png
+  9x13 | content\keeper\keeper4\player2\player2drill_right2.png
+  9x13 | content\keeper\keeper4\player2\player2drill_right3.png
+  9x13 | content\keeper\keeper4\player2\player2drill_up0.png
+  9x13 | content\keeper\keeper4\player2\player2drill_up1.png
+  9x13 | content\keeper\keeper4\player2\player2drill_up2.png
+  9x13 | content\keeper\keeper4\player2\player2drill_up3.png
+  9x13 | content\keeper\keeper4\player2\player2_0.png
+  9x13 | content\keeper\keeper4\player2\player2_1.png
+  9x13 | content\keeper\keeper4\player2\player2_2.png
+  9x13 | content\keeper\keeper4\player2\player2_3.png
+  9x13 | content\keeper\keeper4\player2\player2_down0.png
+  9x13 | content\keeper\keeper4\player2\player2_links0.png
+  9x13 | content\keeper\keeper4\player2\player2_links1.png
+  9x13 | content\keeper\keeper4\player2\player2_rechts0.png
+  9x13 | content\keeper\keeper4\player2\player2_rechts1.png
+  9x13 | content\keeper\keeper4\player2\player2_up0.png
+  9x13 | content\keeper\keeper4\player2\player2_up1.png
+  136x90 | content\keeper\keeper5\player1\player1_sheet.png
+  136x90 | content\keeper\keeper5\player1\player1_sheet_buffed.png
+  100x100 | content\map\bodenv2.png
+  24x24 | content\map\single_white_tile.png
+  240x240 | content\map\tiles.png
+  128x128 | content\map\border\mask.png
+  40x40 | content\map\border\mask_bl.png
+  40x40 | content\map\border\mask_br.png
+  40x40 | content\map\border\mask_tl.png
+  40x40 | content\map\border\mask_tr.png
+  36x36 | content\map\border\tile_fade_border.png
+  200x40 | content\map\border\tunnel.png
+  24x24 | content\map\chamber\cover.png
+  75x79 | content\map\chamber\OPEN72.png
+  204x185 | content\map\chamber\relicdoor-lights-switch-reference.png
+  80x40 | content\map\chamber\nest\petchamber.png
+  60x60 | content\map\chamber\relic\artifact_cave.png
+  17x17 | content\map\chamber\relic\artifact_socketed.png
+  75x79 | content\map\chamber\relic\border.png
+  75x79 | content\map\chamber\relic\border_closed.png
+  16x8 | content\map\chamber\relic\on-off-light-door.png
+  144x109 | content\map\chamber\relic\reference.png
+  510x230 | content\map\chamber\relicswitch\cable-mine-Sheet.png
+  72x69 | content\map\chamber\relicswitch\cable-Sheet.png
+  70x57 | content\map\chamber\relicswitch\cable-switch-Sheet.png
+  8x8 | content\map\chamber\relicswitch\icon_selector.png
+  25x41 | content\map\chamber\relicswitch\switch_cable_reference.png
+  14x13 | content\map\decorations\deco_hole01.png
+  8x12 | content\map\decorations\deco_hole02.png
+  8x11 | content\map\decorations\deco_hole03.png
+  34x15 | content\map\decorations\deco_hole04.png
+  64x20 | content\map\decorations\deco_hole05.png
+  160x16 | content\map\decorations\fuzzy\Ceiling1.png
+  112x16 | content\map\decorations\fuzzy\CornerCeiling1.png
+  80x16 | content\map\decorations\fuzzy\CornerFloor1.png
+  192x16 | content\map\decorations\fuzzy\EdgeCeiling1.png
+  64x16 | content\map\decorations\fuzzy\EdgeFloor1.png
+  160x16 | content\map\decorations\fuzzy\Floor1.png
+  112x16 | content\map\decorations\fuzzy\Floor2.png
+  80x32 | content\map\decorations\fuzzy\Wall1.png
+  112x16 | content\map\decorations\fuzzy\Wall2.png
+  185x16 | content\map\decorations\grass\Ceiling1.png
+  80x17 | content\map\decorations\grass\CornerCeiling1.png
+  64x16 | content\map\decorations\grass\CornerFloor1.png
+  80x16 | content\map\decorations\grass\EdgeCeiling1.png
+  80x16 | content\map\decorations\grass\EdgeFloor1.png
+  80x16 | content\map\decorations\grass\Floor1.png
+  225x16 | content\map\decorations\grass\Floor2.png
+  160x16 | content\map\decorations\mushroom\Ceiling1.png
+  80x16 | content\map\decorations\mushroom\CornerCeiling1.png
+  80x16 | content\map\decorations\mushroom\Floor1.png
+  240x16 | content\map\decorations\mushroom\Floor2.png
+  80x32 | content\map\decorations\mushroom\Wall1.png
+  80x16 | content\map\decorations\mushroom\Wall2.png
+  110x75 | content\map\decorations\ornaments\halloweeneyes_sheet.png
+  64x16 | content\map\decorations\pointy plant\edges ground.png
+  160x18 | content\map\decorations\pointy plant\sidewall spikes.png
+  160x16 | content\map\decorations\seaweed\Ceiling1.png
+  128x16 | content\map\decorations\seaweed\CornerCeiling1.png
+  112x16 | content\map\decorations\seaweed\Floor1.png
+  128x16 | content\map\decorations\seaweed\Floor2.png
+  112x16 | content\map\decorations\seaweed\Wall1.png
+  192x16 | content\map\decorations\square\ceiling group large.png
+  160x16 | content\map\decorations\square\ceiling small.png
+  160x32 | content\map\decorations\square\edges ceiling.png
+  160x32 | content\map\decorations\square\edges ground.png
+  260x16 | content\map\decorations\square\ground group.png
+  32x32 | content\map\decorations\web\alien web1.png
+  32x32 | content\map\decorations\web\alien web2.png
+  32x32 | content\map\decorations\web\alien web3.png
+  32x32 | content\map\decorations\web\alien web4.png
+  32x32 | content\map\decorations\web\alien web5.png
+  32x32 | content\map\decorations\web\alien web6.png
+  32x32 | content\map\decorations\web\alien web7.png
+  32x32 | content\map\decorations\web\alien web8.png
+  20x6 | content\map\lights\lichtquelle1.png
+  24x24 | content\map\tile\cover.png
+  64x64 | content\map\tile\cracks_tiled.png
+  1x1 | content\map\tile\ground.png
+  32x256 | content\map\tile\ground_side.png
+  16x4 | content\map\tile\tile-break-dirt-particle.png
+  24x6 | content\map\tile\tile-break-dirt-particle_col_ol.png
+  16x4 | content\map\tile\tile-break-dirt-particle_iron.png
+  16x4 | content\map\tile\tile-break-dirt-particle_new.png
+  16x4 | content\map\tile\tile-break-dirt-particle_sand.png
+  16x4 | content\map\tile\tile-break-dirt-particle_water.png
+  288x24 | content\map\tile\tile-break.png
+  8x8 | content\map\tile\tile-dust.png
+  24x24 | content\map\tile\new_rocks\rocks1.png
+  24x24 | content\map\tile\new_rocks\rocks2.png
+  24x24 | content\map\tile\new_rocks\rocks3.png
+  24x24 | content\map\tile\new_rocks\rocks4.png
+  24x24 | content\map\tile\new_rocks\rocks5.png
+  24x24 | content\map\tile\new_rocks\rocks6 - Kopie.png
+  24x24 | content\map\tile\new_rocks\rocks_transparent.png
+  128x128 | content\map\tile\new_rocks\rock_bg.png
+  8x8 | content\monster\dust.png
+  481x161 | content\monster\bigtick\sheet.png
+  234x198 | content\monster\butterfly\projectilesheetnew.png
+  180x42 | content\monster\butterfly\projectile_sheet.png
+  35x3 | content\monster\diver\warner.png
+  261x225 | content\monster\flyer\newprojectilesheettest.png
+  392x84 | content\monster\flyer\projectile_sheet.png
+  75x75 | content\monster\phaser\projectilesheetnew_24x98.png
+  290x250 | content\monster\scarab\projectilesheet.png
+  288x64 | content\monster\shifter\projectile_sheet.png
+  162x144 | content\monster\stag\airprojectile.png
+  10x18 | content\monster\swarm\swarm0.png
+  10x18 | content\monster\swarm\swarm1.png
+  10x18 | content\monster\swarm\swarm2.png
+  10x18 | content\monster\swarm\swarm3.png
+  10x18 | content\monster\swarm\swarm4.png
+  10x18 | content\monster\swarm\swarm_attack0.png
+  10x18 | content\monster\swarm\swarm_attack1.png
+  10x18 | content\monster\swarm\swarm_attackdmg0.png
+  10x18 | content\monster\swarm\swarm_attackdmg1.png
+  10x18 | content\monster\swarm\swarm_attackdmg2.png
+  10x18 | content\monster\swarm\swarm_attackdmg3.png
+  10x18 | content\monster\swarm\swarm_attackdmg4.png
+  10x18 | content\monster\swarm\swarm_shot0.png
+  10x18 | content\monster\swarm\swarm_shot1.png
+  10x18 | content\monster\swarm\swarm_shot2.png
+  10x18 | content\monster\swarm\swarm_shot3.png
+  10x18 | content\monster\swarm\swarm_shot4.png
+  10x18 | content\monster\swarm\swarm_shot5.png
+  10x18 | content\monster\swarm\swarm_shot6.png
+  10x18 | content\monster\swarm\swarm_shot7.png
+  476x110 | content\monster\tick\sheet.png
+  59x45 | content\monster\walker\monster1_stun0.png
+  59x45 | content\monster\walker\monster1_stun1.png
+  59x45 | content\monster\walker\monster1_stun2.png
+  59x45 | content\monster\walker\monster1_stun3.png
+  320x96 | content\monster\worm\projectile_sheet.png
+  1x3 | content\shared\particle_1px_offset.png
+  64x32 | content\shared\smoke_particles.png
+  64x32 | content\shared\smoke_particles_highlight.png
+  64x32 | content\shared\smoke_particles_white.png
+  19x26 | content\shared\difficulty\skull_difficulties_1.png
+  19x26 | content\shared\difficulty\skull_difficulties_2.png
+  79x42 | content\shared\difficulty\skull_difficulties_panel.png
+  88x44 | content\techtree\common\anyall.png
+  16x8 | content\techtree\common\line-available.png
+  32x8 | content\techtree\common\line-bought.png
+  16x8 | content\techtree\common\line-locked.png
+  16x8 | content\techtree\common\line-unavailable.png
+  44x44 | content\techtree\common\lock.png
+  20x20 | content\techtree\common\minus.png
+  28x28 | content\techtree\common\panel_lockgroup_closed.png
+  28x28 | content\techtree\common\panel_lockgroup_open.png
+  20x22 | content\techtree\common\plus.png
+  20x22 | content\techtree\common\star.png
+  136x138 | content\techtree\panels\big.png
+  136x138 | content\techtree\panels\big_dark.png
+  136x138 | content\techtree\panels\big_focus.png
+  112x114 | content\techtree\panels\lock.png
+  64x114 | content\techtree\panels\lock_bright.png
+  64x114 | content\techtree\panels\lock_dark.png
+  32x36 | content\techtree\panels\lock_icon.png
+  194x114 | content\techtree\panels\one_bright.png
+  194x114 | content\techtree\panels\one_dark.png
+  194x114 | content\techtree\panels\one_focus.png
+  194x114 | content\techtree\panels\one_reload_bright.png
+  194x114 | content\techtree\panels\one_reload_dark.png
+  194x114 | content\techtree\panels\one_reload_extra_bright.png
+  194x114 | content\techtree\panels\one_reload_extra_dark.png
+  32x32 | content\techtree\panels\panel block.png
+  194x114 | content\techtree\panels\two_bright.png
+  194x114 | content\techtree\panels\two_dark.png
+  194x114 | content\techtree\panels\two_focus.png
+  194x114 | content\techtree\panels\two_reload_bright.png
+  194x114 | content\techtree\panels\two_reload_dark.png
+  194x114 | content\techtree\panels\two_reload_extra_bright.png
+  194x114 | content\techtree\panels\two_reload_extra_dark.png
+  112x114 | content\techtree\panels\zero_bright.png
+  112x114 | content\techtree\panels\zero_dark.png
+  112x114 | content\techtree\panels\zero_focus.png
+  11x9 | content\weapons\cannon4.png
+  15x13 | content\weapons\cannon_ani0.png
+  15x13 | content\weapons\cannon_ani1.png
+  15x13 | content\weapons\cannon_ani2.png
+  15x13 | content\weapons\cannon_ani3.png
+  15x13 | content\weapons\cannon_ani4.png
+  15x13 | content\weapons\cannon_ani5.png
+  24x14 | content\weapons\artillery\base.png
+  8x23 | content\weapons\artillery\cannon.png
+  4x8 | content\weapons\artillery\projectile.png
+  16x1 | content\weapons\laser\dotted.png
+  126x175 | content\weapons\laser\laserbase_big_sheet.png
+  138x161 | content\weapons\laser\laserbase_sheet.png
+  78x98 | content\weapons\laser\laserbase_small_mid_sheet.png
+  66x77 | content\weapons\laser\laserbase_small_sheet.png
+  126x175 | content\weapons\laser\lasercannon_big_sheet.png
+  138x161 | content\weapons\laser\lasercannon_sheet.png
+  78x98 | content\weapons\laser\lasercannon_small_mid_sheet.png
+  66x77 | content\weapons\laser\lasercannon_small_sheet.png
+  128x32 | content\weapons\laser\laserend-big.png
+  21x4 | content\weapons\laser\laser_big_bottomextension.png
+  17x4 | content\weapons\laser\laser_bottomextension.png
+  138x161 | content\weapons\laser\laser_sheet.png
+  11x4 | content\weapons\laser\laser_small_bottomextension.png
+  83x46 | content\weapons\laser\laser_tiers1.png
+  128x32 | content\weapons\laser\muzzleflash.png
+  256x64 | content\weapons\laser\small-burst.png
+  16x32 | content\weapons\laser\laser_variations\laser_particle0.png
+  16x32 | content\weapons\laser\laser_variations\laser_particle1.png
+  16x32 | content\weapons\laser\laser_variations\laser_particle2.png
+  16x32 | content\weapons\laser\laser_variations\laser_particle3.png
+  32x32 | content\weapons\laser\laser_variations\laser_streak.png
+  34x34 | content\weapons\obelisk\ammo1.png
+  34x34 | content\weapons\obelisk\ammo15.png
+  34x34 | content\weapons\obelisk\ammo2.png
+  34x34 | content\weapons\obelisk\ammo25.png
+  34x34 | content\weapons\obelisk\ammo3.png
+  34x34 | content\weapons\obelisk\ammo5.png
+  34x34 | content\weapons\obelisk\ammo9.png
+  17x5 | content\weapons\obelisk\ammo_single.png
+  17x5 | content\weapons\obelisk\ammo_single_empty.png
+  60x8 | content\weapons\obelisk\BarDark.png
+  8x8 | content\weapons\obelisk\crosshairs0.png
+  16x16 | content\weapons\obelisk\crosshairs0_hover.png
+  16x16 | content\weapons\obelisk\crosshairs0_no.png
+  192x144 | content\weapons\obelisk\hitMarker2-uicol.png
+  192x144 | content\weapons\obelisk\hitMarker48Sheet.png
+  112x16 | content\weapons\obelisk\hitMarkerSheet.png
+  64x64 | content\weapons\obelisk\killMarker.png
+  128x160 | content\weapons\obelisk\killMarker2.png
+  256x192 | content\weapons\obelisk\killMarkerSheet.png
+  72x36 | content\weapons\obelisk\PreSparkSheet.png
+  120x18 | content\weapons\obelisk\QuickReloadBar.png
+  72x16 | content\weapons\obelisk\QuickReloadBar2.png
+  3x18 | content\weapons\obelisk\QuickReloadBound.png
+  2x16 | content\weapons\obelisk\QuickReloadBound2.png
+  1x18 | content\weapons\obelisk\QuickReloadWindow.png
+  60x6 | content\weapons\obelisk\QuickReloadWindowSquash.png
+  5x6 | content\weapons\obelisk\Slidercsp.png
+  5x42 | content\weapons\sword\blade_bfn_filling_cooldown.png
+  5x42 | content\weapons\sword\blade_bfn_filling_ready.png
+  5x47 | content\weapons\sword\blade_bfs_filling_cooldown.png
+  5x47 | content\weapons\sword\blade_bfs_filling_ready.png
+  5x41 | content\weapons\sword\blade_big_filling_cooldown.png
+  5x41 | content\weapons\sword\blade_big_filling_ready.png
+  3x32 | content\weapons\sword\blade_middle_filling_cooldown.png
+  3x32 | content\weapons\sword\blade_middle_filling_ready.png
+  5x36 | content\weapons\sword\blade_needl_filling_cooldown.png
+  5x36 | content\weapons\sword\blade_needl_filling_ready.png
+  4x26 | content\weapons\sword\blade_particle.png
+  3x24 | content\weapons\sword\blade_small_filling_cooldown.png
+  3x24 | content\weapons\sword\blade_small_filling_ready.png
+  30x13 | content\weapons\sword\bombtip.png
+  16x1 | content\weapons\sword\dotted.png
+  27x8 | content\weapons\sword\finne_left.png
+  27x8 | content\weapons\sword\finne_right.png
+  256x64 | content\weapons\sword\impact.png
+  200x194 | content\weapons\sword\Reference.png
+  72x31 | content\weapons\sword\sword-arrowblade-sheet - Kopie.png
+  72x31 | content\weapons\sword\sword-arrowblade-sheet.png
+  18x29 | content\weapons\sword\sword.png
+  180x8 | content\weapons\sword\sword_base-Sheet.png
+  8x7 | content\weapons\sword\trail.png
+  64x8 | content\weather\lightning\lightning.png
+  128x32 | content\weather\meteor\meteor.png
+  16x16 | content\weather\rain\rain.png
+  64x16 | content\weather\rain\splash.png
+  2x2 | content\weather\snow\snow.png
+  32x8 | content\weather\spores\spores.png
+  270x186 | content\worlds\gags\sheet1.png
+  813x46 | content\worlds\world1\BG0.png
+  980x96 | content\worlds\world1\BG1.png
+  980x150 | content\worlds\world1\BG2.png
+  960x440 | content\worlds\world1\BG4.png
+  960x502 | content\worlds\world1\BG5.png
+  493x98 | content\worlds\world1\BG6.png
+  960x96 | content\worlds\world1\cellar_background.png
+  126x59 | content\worlds\world1\frontcover.png
+  167x63 | content\worlds\world2\frontcover.png
+  140x82 | content\worlds\world2\newversion+palette\Layer1.png
+  117x68 | content\worlds\world2\newversion+palette\Layer7.png
+  320x130 | content\worlds\world2\newversion+palette\palette_2_1.png
+  168x78 | content\worlds\world3\frontcover.png
+  202x57 | content\worlds\world3\layer10.png
+  94x182 | content\worlds\world3\layer2.png
+  155x198 | content\worlds\world3\layer4.png
+  112x129 | content\worlds\world3\layer5.png
+  228x64 | content\worlds\world3\layer6.png
+  91x79 | content\worlds\world3\layer7.png
+  108x97 | content\worlds\world3\layer8.png
+  123x67 | content\worlds\world3\layer9.png
+  147x78 | content\worlds\world3\new version\0.png
+  456x194 | content\worlds\world3\new version\11.png
+  116x202 | content\worlds\world3\new version\2.png
+  301x237 | content\worlds\world3\new version\5.png
+  328x196 | content\worlds\world3\new version\6.png
+  246x223 | content\worlds\world3\new version\7.png
+  163x181 | content\worlds\world3\new version\8.png
+  320x130 | content\worlds\world3\new version\palette_3_1.png
+  186x170 | content\worlds\world4\10.png
+  239x247 | content\worlds\world4\11.png
+  150x62 | content\worlds\world4\frontcover.png
+  184x82 | content\worlds\world5\11.png
+  141x79 | content\worlds\world5\frontcover.png
+  127x82 | content\worlds\world6\Layer1.png
+  122x56 | content\worlds\world6\Layer12.png
+  250x161 | content\worlds\world6\Layer6.png
+  164x247 | content\worlds\world6\Layer7.png
+  83x138 | content\worlds\world6\Layer8.png
+  140x80 | gui\gamepad_controller.png
+  140x80 | gui\gamepad_controller_ps4.png
+  140x80 | gui\keyboard_controller.png
+  79x99 | gui\reference.png
+  4x4 | gui\separator.png
+  500x44 | gui\buttons\button-Sheet.png
+  76x40 | gui\buttons\button_disabled.png
+  108x48 | gui\buttons\button_focus.png
+  76x40 | gui\buttons\button_hover.png
+  76x40 | gui\buttons\button_normal.png
+  76x40 | gui\buttons\button_pressed.png
+  28x24 | gui\buttons\checkbox_checked.png
+  28x24 | gui\buttons\checkbox_normal.png
+  13x13 | gui\icons\blank_button.png
+  10x10 | gui\icons\blank_key.png
+  10x10 | gui\icons\gamepad_cross_down.png
+  10x10 | gui\icons\gamepad_cross_left.png
+  10x10 | gui\icons\gamepad_cross_right.png
+  10x10 | gui\icons\gamepad_cross_up.png
+  14x10 | gui\icons\gamepad_lb.png
+  14x11 | gui\icons\gamepad_lt.png
+  10x10 | gui\icons\gamepad_menu.png
+  14x10 | gui\icons\gamepad_rb.png
+  14x11 | gui\icons\gamepad_rt.png
+  10x10 | gui\icons\gamepad_select.png
+  17x11 | gui\icons\gamepad_stick_left.png
+  17x11 | gui\icons\gamepad_stick_middle.png
+  17x11 | gui\icons\gamepad_stick_right.png
+  16x10 | gui\icons\key_back.png
+  10x10 | gui\icons\key_back_var2.png
+  16x10 | gui\icons\key_back_var3.png
+  16x10 | gui\icons\key_capslock.png
+  16x10 | gui\icons\key_control.png
+  10x10 | gui\icons\key_e.png
+  16x10 | gui\icons\key_enter.png
+  16x10 | gui\icons\key_esc.png
+  20x10 | gui\icons\key_leer.png
+  10x10 | gui\icons\key_links.png
+  10x10 | gui\icons\key_oben.png
+  10x10 | gui\icons\key_rechts.png
+  10x10 | gui\icons\key_rechts_inactive.png
+  16x10 | gui\icons\key_shift.png
+  16x10 | gui\icons\key_tab.png
+  10x10 | gui\icons\key_unten.png
+  10x10 | gui\icons\key_y.png
+  11x11 | gui\icons\ps4\gamepad_button_down.png
+  11x11 | gui\icons\ps4\gamepad_button_left.png
+  11x11 | gui\icons\ps4\gamepad_button_right.png
+  11x11 | gui\icons\ps4\gamepad_button_up.png
+  11x11 | gui\icons\xbox\gamepad_button_down.png
+  11x11 | gui\icons\xbox\gamepad_button_right.png
+  11x11 | gui\icons\xbox\gamepad_button_up.png
+  28x28 | gui\panels\panel.png
+  32x32 | gui\panels\panel_inside.png
+  32x32 | gui\panels\panel_inside_frame.png
+  68x68 | gui\panels\panel_outside.png
+  24x20 | gui\sliders\bar_hor.png
+  20x28 | gui\sliders\grabber.png
+  20x28 | gui\sliders\grabber_normal.png
+  24x20 | gui\sliders\slider_fill.png
+  24x20 | gui\sliders\slider_fill_highlight.png
+  56x20 | gui\sliders\slider_hor.png
+  56x20 | gui\sliders\slider_hor_highlight.png
+  20x56 | gui\sliders\slider_ver.png
+  20x56 | gui\sliders\slider_ver_highlight.png
+  4x20 | gui\sliders\tick.png
+  65x50 | stages\ending\Discord-Logo.png
+  50x50 | stages\ending\Steam-Emblem.png
+  294x185 | stages\landing\landing-Sheet.png
+  84x10 | stages\landing\shards.png
+  64x64 | stages\landing\smoke.png
+  480x270 | stages\loadout\background.png
+  45x42 | stages\loadout\dummy.png
+  45x42 | stages\loadout\dummy2.png
+  75x79 | stages\loadout\relic_chamber.png
+  375x36 | stages\loadout\world\background_01.png
+  960x334 | stages\loadout\world\background_02.png
+  960x260 | stages\loadout\world\background_03.png
+  960x228 | stages\loadout\world\background_04.png
+  960x287 | stages\loadout\world\background_05.png
+  960x325 | stages\loadout\world\background_06.png
+  960x385 | stages\loadout\world\background_07.png
+  960x428 | stages\loadout\world\background_08.png
+  960x408 | stages\loadout\world\background_09.png
+  960x249 | stages\loadout\world\background_10.png
+  960x239 | stages\loadout\world\background_11.png
+  960x138 | stages\loadout\world\background_12.png
+  175x27 | stages\loadout\world\background_13.png
+  70x40 | systems\localization\Keeper_ar.png
+  70x40 | systems\localization\Keeper_bg.png
+  70x40 | systems\localization\Keeper_chin.png
+  70x40 | systems\localization\Keeper_cs.png
+  70x40 | systems\localization\Keeper_de.png
+  70x40 | systems\localization\Keeper_dk.png
+  70x40 | systems\localization\Keeper_en.png
+  70x40 | systems\localization\Keeper_es.png
+  70x40 | systems\localization\Keeper_es_LAT.png
+  70x40 | systems\localization\Keeper_fi_FI.png
+  70x40 | systems\localization\Keeper_fo_FO.png
+  70x40 | systems\localization\keeper_fr.png
+  70x40 | systems\localization\Keeper_he.png
+  70x40 | systems\localization\Keeper_hu.png
+  70x40 | systems\localization\Keeper_id.png
+  70x40 | systems\localization\keeper_it.png
+  70x40 | systems\localization\Keeper_jp.png
+  70x40 | systems\localization\keeper_ko.png
+  70x40 | systems\localization\Keeper_latin.png
+  70x40 | systems\localization\Keeper_nl_NL.png
+  70x40 | systems\localization\Keeper_no_NO.png
+  70x40 | systems\localization\keeper_pl.png
+  70x40 | systems\localization\keeper_pt_BR.png
+  70x40 | systems\localization\Keeper_pt_PT.png
+  70x40 | systems\localization\Keeper_ro.png
+  70x40 | systems\localization\Keeper_ru.png
+  70x40 | systems\localization\Keeper_sv.png
+  70x40 | systems\localization\Keeper_th.png
+  70x40 | systems\localization\Keeper_tr.png
+  70x40 | systems\localization\Keeper_uk.png
+  70x40 | systems\localization\Keeper_us.png
+  70x40 | systems\localization\Keeper_vi.png
+  70x40 | systems\localization\Keeper_zh_CN.png
+  70x40 | systems\localization\Keeper_zh_TW.png
+  800x480 | systems\localization\flags\bg_BG.png
+  210x23 | systems\style\index_palette.png
+  320x130 | systems\style\palettes\index_palette.png
+  320x130 | systems\style\palettes\palette_1_1.png
+  320x130 | systems\style\palettes\palette_1_2.png
+  320x130 | systems\style\palettes\palette_2_1.png
+  320x130 | systems\style\palettes\palette_2_2.png
+  320x130 | systems\style\palettes\palette_2_exp2.png
+  320x130 | systems\style\palettes\palette_3_1.png
+  320x130 | systems\style\palettes\palette_3_2.png
+  320x130 | systems\style\palettes\palette_3_3.png
+  320x130 | systems\style\palettes\palette_4_1.png
+  320x130 | systems\style\palettes\palette_4_2.png
+  320x130 | systems\style\palettes\palette_5_1.png
+  320x130 | systems\style\palettes\palette_5_2.png
+  320x130 | systems\style\palettes\palette_6_1.png
+  320x130 | systems\style\palettes\palette_6_2.png
+  320x130 | systems\style\palettes\palette_6_3.png
+  320x130 | systems\style\palettes\palette_6_4.png
+  320x130 | systems\style\palettes\palette_6_5.png
+  320x130 | systems\style\palettes\palette_6_6.png
+  320x130 | systems\style\palettes\palette_6_7exp.png
+  320x130 | systems\style\palettes\palette_6_9exp.png
+  80x80 | tool\WaveDesigner\driller.png

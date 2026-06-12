@@ -6,7 +6,7 @@
 
 Experimental PlayStation Vita port of **Dome Keeper**, adapted from the Godot PC release and tested with the custom **Godot 3.5 RC5 Vita** runtime.
 
-> **Current status:** early technical preview. The included VPK can boot on PS Vita hardware, but the stable Vita-compatible `game.pck` is still being developed. This is not a playable release yet.
+> **Current status:** technical preview under active development. The build now boots on PS Vita hardware, reaches the in-game `LevelStage`, and the long-standing out-of-memory crash has been resolved. Remaining work is shader-compatibility and performance on the gameplay scene. This is not a playable release yet.
 
 ---
 
@@ -14,19 +14,40 @@ Experimental PlayStation Vita port of **Dome Keeper**, adapted from the Godot PC
 
 The current Vita build reached these milestones on real hardware:
 
-- The game boots without the initial `C2-12828-1` crash.
-- The title menu opens and background music plays.
-- Controller input works in the title flow.
-- `New Game` / loadout flow was reached during development.
-- The project reached the in-game `LevelStage` / map scene during testing, but the gameplay scene is still unstable, visually broken in some attempts, and not yet playable.
+```text
+Boot / no C2-12828-1     ████████████████████  done
+Title menu + music       ████████████████████  done
+Controller input         ████████████████████  done
+New Game / Loadout flow  ████████████████████  done
+Enter LevelStage / Map   ████████████████████  done
+VRAM / OOM crash fixed   ████████████████████  done
+Shader compile freezes   █████████████░░░░░░░  in progress
+Playable gameplay        █████░░░░░░░░░░░░░░░░  pending
+Performance tuning       ██░░░░░░░░░░░░░░░░░░░  pending
 
-The current blocker is producing a stable and performant `game.pck` for the Vita. The original `Map.tscn` is heavy and uses several Godot viewport/shader/audio systems that need careful reduction for PS Vita memory and renderer limits.
+Overall  ████████████████░░░░░░░░░░  ~62%
+```
+
+### Milestones
+
+- [x] Game boots without the initial `C2-12828-1` crash.
+- [x] Title menu opens and background music plays.
+- [x] Controller input works in the title and menu flow.
+- [x] `New Game` / loadout flow runs.
+- [x] The build reaches the in-game `LevelStage` / map scene.
+- [x] **CDRAM / VRAM out-of-memory crash on `LevelStage` fixed** (see Technical Progress).
+- [x] Stage-transition GPU freeze fixed.
+- [ ] Remaining canvas **LIGHT-variant** shader compile failures resolved (laser, dome, etc.).
+- [ ] Full gameplay scene rendering (Dome, Keeper, map tiles, HUD).
+- [ ] Stable / performant frame rate.
+
+The previous hard blocker (an out-of-memory crash when entering `LevelStage`) has been fixed: the map's `ViewportLights` was allocating a full-size **3D + HDR** render target with post-processing mipmaps. Forcing it to 2D (`usage = 0`, `hdr = false`) removed >100 MB of CDRAM pressure. The build now runs inside the stage; the active work is the handful of custom canvas shaders that still hang the Vita GLES2 compiler in their lit variant.
 
 ---
 
 ## Downloads
 
-For now, this repository publishes only the experimental VPK from the `Release` folder.
+For now, this repository publishes only the experimental VPK from the [Releases](../../releases) page.
 
 The final `game.pck` is **not included** and is still under development.
 
@@ -68,19 +89,48 @@ Controls are still subject to change while the gameplay scene is being stabilize
 
 ## Technical Progress
 
-The port has gone through several Vita-specific fixes:
+The port has gone through several Vita-specific fixes. The most impactful, in order:
 
-- Project resolution reduced to Vita-friendly dimensions to avoid excessive VRAM/CDRAM pressure.
-- Export filters updated so required data files such as `.yaml`, `.json`, `.txt`, and `.csv` are included in the PCK.
+- **`.stex` (StreamTexture) WebP format.** The correct layout is `GDST` header followed by `WEBP` then `RIFF` **directly**. A bad bulk "fix" had inserted an extra size field on one texture (`Load.png`), which the Vita GLES2 WebP decoder rejected (`Error unpacking WEBP image`). Reverting it to the standard layout fixed the title screen. The same standard layout works on both PC and the Vita fork.
+- **`SCREEN_TEXTURE` + 2D light = GPU freeze.** A `canvas_item` material that samples `SCREEN_TEXTURE` while drawn under a `Light2D` makes Godot compile the heavy LIGHT variant of the canvas shader, which **hangs the PowerVR SGX543 compiler** (hard freeze, not an error). `render_mode unshaded;` does **not** prevent this on the Vita fork. The fix is to remove the screen-texture dependency from non-essential overlays (shockwave distortion, vignette, screen-cover dissolve).
+- **Out-of-memory on `LevelStage`.** `Map.gd` sizes several Viewports to the **full map resolution** (`tilemap_size * TILE_SIZE`, ~3768x3768). `ViewportLights` additionally used the Godot defaults (`usage = USAGE_3D`, `hdr = true`), allocating a 16-bit float render target with mipmaps and a depth buffer — over 150 MB on its own. Forcing it to 2D RGBA8 removed the crash (`Cannot allocate mipmaps for 3D post processing effects`).
+- **Stage-transition freeze.** The `dissolveTransition` effect made a full-screen `ScreenCover` visible (compiling another lit canvas vertex variant that froze the GPU) and also did an expensive `get_viewport().get_texture().get_data()` framebuffer read-back. Both were disabled; the level now appears directly.
+- Project resolution reduced to Vita-friendly dimensions (960x540) to reduce VRAM/CDRAM pressure.
+- Export filters updated so required data files (`.yaml`, `.json`, `.txt`, `.csv`) are included in the PCK.
 - Safety checks added around data loading to avoid infinite loops when files fail to open on Vita.
 - GodotSteam, PlayFab, and other PC-only integrations were removed or bypassed.
-- Audio memory usage was investigated; uncompressed WAV imports are a major RAM risk on Vita.
-- Shader syntax incompatibilities were identified, especially PC-style constants such as `0f`, `0.5f`, and `1f`.
-- The title/menu boot crash was fixed during development.
-- The loadout/new-game flow was simplified enough to run during testing.
-- Several lightweight fallback experiments were made for `Dome`, `Relichunt`, and `Map` to isolate the crash path.
+- Shader syntax incompatibilities were corrected (PC-style constants such as `0f`, `0.5f`, `1f`; the `SCREEN_UV` / `SCREEN_TEXTURE` double-define workaround).
 
 More detail is available in [DetailsVitaPort.txt](DetailsVitaPort.txt).
+
+---
+
+## Tooling (`scripts/`)
+
+The [`scripts/`](scripts) folder holds the Python utilities written during the port. They operate on the local Vita build folder (absolute paths are embedded in each script — adjust them to your setup). See [`scripts/README.md`](scripts/README.md) for the full layout and safety notes.
+
+| Folder | Purpose | Key scripts |
+| :--- | :--- | :--- |
+| `stex/` | `.stex` (StreamTexture) WebP format inspection and repair | `revert_all_stex.py` (the official B→A fix), `scan_stex_format.py`, `check_stex.py`, `check_mip.py` |
+| `textures/` | Texture / atlas size reduction for the 4096 px and VRAM limits | `scan_textures_vita.py`, `optimize_vita.py`, `resize_stex_v2.py`, `restore_atlas_stex_v2.py` |
+| `shaders/` | Applies the `SCREEN_UV` → local-variable (`_suv`) workaround | `fix_shaders_vita.py` |
+| `validate/` | Pre-PCK checks of shaders, textures, refs and project settings | `validate_vitabuild.py`, `validate_refs.py` |
+| `restore/` | Restore resources from the original/reference PCK | `restore_all_from_original.py`, `restore_all_missing.py` |
+| `audio/` | WAV → IMA-ADPCM compression and audio bus patching | `compress_audio.py`, `patch_audio.py` |
+| `_history/` | Archived one-off patches and the original combined script blobs (reference only — not meant to be re-run) | — |
+
+> **Warning:** never run a `fix_all_stex`-style script. The harmful logic survives only inside `_history/combined_scripts_fb1d.py`; it re-inserts the broken WebP size prefix. Use `stex/revert_all_stex.py` to repair instead.
+
+---
+
+## Next Steps
+
+- Resolve the remaining canvas **LIGHT-variant** shader compile failures (laser, dome/shield effects). These hang the Vita GLES2 compiler even with trivial fragment code, so the likely fix is reducing the map's 2D lighting features rather than editing shaders one by one.
+- Get the full gameplay scene rendering correctly (Dome, Keeper, map tiles, HUD) and confirm the stage is interactive.
+- Cap the map Viewport render-target sizes (currently full-map resolution) to further reduce CDRAM and head off OOM on larger maps.
+- Investigate and recompress audio (IMA-ADPCM / 22050 Hz) to cut RAM usage.
+- Re-import the `de_DE.png` localization flag (its WebP fails to decode on Vita and breaks the language panel).
+- Performance pass once the scene is stable, targeting a playable frame rate.
 
 ---
 
@@ -88,9 +138,10 @@ More detail is available in [DetailsVitaPort.txt](DetailsVitaPort.txt).
 
 - Not playable yet.
 - Stable Vita-compatible `game.pck` is still in development.
-- `Map.tscn` / `LevelStage` still need major optimization and compatibility work.
-- Some map shaders, viewport textures, rocks, lights, and audio nodes can fail or render incorrectly on Vita.
-- Performance reached about 7 FPS in one fallback test that got into the gameplay scene, so the real map pipeline still needs substantial work.
+- A few custom map/effect shaders still fail to compile in their lit variant on Vita.
+- The `de_DE` language flag fails to load (broken WebP); other languages are unaffected.
+- Some visual effects (screen distortion, vignette, dissolve transition) are intentionally disabled on Vita.
+- Performance is not yet tuned for the real map pipeline.
 
 ---
 
@@ -110,7 +161,7 @@ Custom Godot 3.5 Vita runtime used for hardware testing.
 
 ### PrincessLog / NetLoggingMgr
 
-PS Vita network logging tool being evaluated to capture better hardware logs for errors such as `ERR 16` during scene loading.
+PS Vita network logging tool used to capture hardware crash logs (the `princesslog-*.log` files that drive most of the debugging above).
 
 ### godotpcktool
 
