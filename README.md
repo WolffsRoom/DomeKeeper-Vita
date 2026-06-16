@@ -12,7 +12,7 @@ Experimental PlayStation Vita port of **Dome Keeper**, adapted from the Godot PC
 
 ## Release Status
 
-The current Vita build reached these milestones on real hardware:
+The current Vita build reached these steos on real hardware:
 
 ```text
 Boot / no C2-12828-1     ████████████████████  done
@@ -28,8 +28,7 @@ Performance tuning       ██░░░░░░░░░░░░░░░░�
 Overall  ████████████████░░░░░░░░░░  ~62%
 ```
 
-### Milestones
-
+### Project steps
 - [x] Game boots without the initial `C2-12828-1` crash.
 - [x] Title menu opens and background music plays.
 - [x] Controller input works in the title and menu flow.
