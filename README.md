@@ -27,75 +27,62 @@ Experimental PlayStation Vita port of **Dome Keeper**, adapted from the Godot PC
     <tr>
       <th align="left">Step</th>
       <th align="left">Progress</th>
-      <th align="center">Status</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>Boot &mdash; no <code>C2-12828-1</code> crash</td>
-      <td><code>██████████████</code></td>
-      <td align="center">✅&nbsp;Done</td>
+      <td><code>██████████████</code>&nbsp;&nbsp;Done</td>
     </tr>
     <tr>
       <td>Title menu + background music</td>
-      <td><code>██████████████</code></td>
-      <td align="center">✅&nbsp;Done</td>
+      <td><code>██████████████</code>&nbsp;&nbsp;Done</td>
     </tr>
     <tr>
       <td>Controller input</td>
-      <td><code>██████████████</code></td>
-      <td align="center">✅&nbsp;Done</td>
+      <td><code>██████████████</code>&nbsp;&nbsp;Done</td>
     </tr>
     <tr>
       <td>New Game / Loadout flow</td>
-      <td><code>██████████████</code></td>
-      <td align="center">✅&nbsp;Done</td>
+      <td><code>██████████████</code>&nbsp;&nbsp;Done</td>
     </tr>
     <tr>
       <td>Enter <code>LevelStage</code> / Map</td>
-      <td><code>██████████████</code></td>
-      <td align="center">✅&nbsp;Done</td>
+      <td><code>██████████████</code>&nbsp;&nbsp;Done</td>
     </tr>
     <tr>
       <td>VRAM / OOM crash fixed</td>
-      <td><code>██████████████</code></td>
-      <td align="center">✅&nbsp;Done</td>
+      <td><code>██████████████</code>&nbsp;&nbsp;Done</td>
     </tr>
     <tr>
       <td>Texture decode &mdash; stale <code>.stex</code></td>
-      <td><code>██████████████</code></td>
-      <td align="center">✅&nbsp;Done</td>
+      <td><code>██████████████</code>&nbsp;&nbsp;Done</td>
     </tr>
     <tr>
       <td>Map shaders within 8-sampler limit</td>
-      <td><code>██████████████</code></td>
-      <td align="center">✅&nbsp;Done</td>
+      <td><code>██████████████</code>&nbsp;&nbsp;Done</td>
     </tr>
     <tr>
       <td>Map renders on hardware</td>
-      <td><code>█████████░░░░░</code></td>
-      <td align="center">🟡&nbsp;Testing</td>
+      <td><code>█████████░░░░░</code>&nbsp;&nbsp;Testing</td>
     </tr>
     <tr>
       <td>Playable gameplay loop</td>
-      <td><code>█████░░░░░░░░░</code></td>
-      <td align="center">⬜&nbsp;Pending</td>
+      <td><code>█████░░░░░░░░░</code>&nbsp;&nbsp;Pending</td>
     </tr>
     <tr>
       <td>Performance tuning</td>
-      <td><code>██░░░░░░░░░░░░</code></td>
-      <td align="center">⬜&nbsp;Pending</td>
+      <td><code>██░░░░░░░░░░░░</code>&nbsp;&nbsp;Pending</td>
     </tr>
     <tr>
       <td><b>Overall</b></td>
-      <td><code>██████████░░░░</code></td>
-      <td align="center"><b>~72%</b></td>
+      <td><code>██████████░░░░</code>&nbsp;&nbsp;<b>~72%</b></td>
     </tr>
   </tbody>
 </table>
 
 <details>
-<summary><b>🔧 What was fixed inside <code>LevelStage</code> (click to expand)</b></summary>
+<summary><b>What was fixed inside <code>LevelStage</code> (click to expand)</b></summary>
 
 <br>
 
