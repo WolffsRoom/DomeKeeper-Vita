@@ -12,7 +12,7 @@ Experimental PlayStation Vita port of **Dome Keeper**, adapted from the Godot PC
 
 ## Release Status
 
-The current Vita build reached these steos on real hardware:
+The current Vita build reached these steps on real hardware:
 
 ```text
 Boot / no C2-12828-1       ████████████████████  done
