@@ -12,39 +12,102 @@ Experimental PlayStation Vita port of **Dome Keeper**, adapted from the Godot PC
 
 ## Release Status
 
-The current Vita build reached these steps on real hardware:
+<p align="center">
+  <img alt="Overall progress" src="https://img.shields.io/badge/Overall_progress-~72%25-2ea44f?style=for-the-badge">
+  &nbsp;
+  <img alt="Platform" src="https://img.shields.io/badge/PS_Vita-Godot_3.5_RC5-003791?style=for-the-badge&logo=playstation&logoColor=white">
+  &nbsp;
+  <img alt="State" src="https://img.shields.io/badge/State-technical_preview-d29922?style=for-the-badge">
+</p>
 
-```text
-Boot / no C2-12828-1       ████████████████████  done
-Title menu + music         ████████████████████  done
-Controller input           ████████████████████  done
-New Game / Loadout flow     ████████████████████  done
-Enter LevelStage / Map      ████████████████████  done
-VRAM / OOM crash fixed       ████████████████████  done
-Texture decode (stale stex)  ████████████████████  done
-Map shaders within limits    ████████████████████  done
-Map renders on hardware      ████████████░░░░░░░░  testing
-Playable gameplay           ███████░░░░░░░░░░░░░  pending
-Performance tuning          ███░░░░░░░░░░░░░░░░░  pending
+<p align="center">The current Vita build has reached these steps on real hardware:</p>
 
-Overall  ██████████████████░░░░░░░░  ~72%
-```
+<table align="center">
+  <thead>
+    <tr>
+      <th align="left">Step</th>
+      <th align="left">Progress</th>
+      <th align="center">Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Boot &mdash; no <code>C2-12828-1</code> crash</td>
+      <td><code>██████████████</code></td>
+      <td align="center">✅&nbsp;Done</td>
+    </tr>
+    <tr>
+      <td>Title menu + background music</td>
+      <td><code>██████████████</code></td>
+      <td align="center">✅&nbsp;Done</td>
+    </tr>
+    <tr>
+      <td>Controller input</td>
+      <td><code>██████████████</code></td>
+      <td align="center">✅&nbsp;Done</td>
+    </tr>
+    <tr>
+      <td>New Game / Loadout flow</td>
+      <td><code>██████████████</code></td>
+      <td align="center">✅&nbsp;Done</td>
+    </tr>
+    <tr>
+      <td>Enter <code>LevelStage</code> / Map</td>
+      <td><code>██████████████</code></td>
+      <td align="center">✅&nbsp;Done</td>
+    </tr>
+    <tr>
+      <td>VRAM / OOM crash fixed</td>
+      <td><code>██████████████</code></td>
+      <td align="center">✅&nbsp;Done</td>
+    </tr>
+    <tr>
+      <td>Texture decode &mdash; stale <code>.stex</code></td>
+      <td><code>██████████████</code></td>
+      <td align="center">✅&nbsp;Done</td>
+    </tr>
+    <tr>
+      <td>Map shaders within 8-sampler limit</td>
+      <td><code>██████████████</code></td>
+      <td align="center">✅&nbsp;Done</td>
+    </tr>
+    <tr>
+      <td>Map renders on hardware</td>
+      <td><code>█████████░░░░░</code></td>
+      <td align="center">🟡&nbsp;Testing</td>
+    </tr>
+    <tr>
+      <td>Playable gameplay loop</td>
+      <td><code>█████░░░░░░░░░</code></td>
+      <td align="center">⬜&nbsp;Pending</td>
+    </tr>
+    <tr>
+      <td>Performance tuning</td>
+      <td><code>██░░░░░░░░░░░░</code></td>
+      <td align="center">⬜&nbsp;Pending</td>
+    </tr>
+    <tr>
+      <td><b>Overall</b></td>
+      <td><code>██████████░░░░</code></td>
+      <td align="center"><b>~72%</b></td>
+    </tr>
+  </tbody>
+</table>
 
-### Project steps
-- [x] Game boots without the initial `C2-12828-1` crash.
-- [x] Title menu opens and background music plays.
-- [x] Controller input works in the title and menu flow.
-- [x] `New Game` / loadout flow runs.
-- [x] The build reaches the in-game `LevelStage` / map scene.
-- [x] **CDRAM / VRAM out-of-memory crash on `LevelStage` fixed** (`ViewportLights` forced to 2D).
-- [x] Stage-transition / shockwave GPU freezes fixed.
-- [x] **Texture decode crashes fixed** — 136 stale `.stex` (resized PNGs, never re-imported) regenerated.
-- [x] **Map shaders brought under the Vita's 8-sampler hardware limit** (`map_main_stones`, `map_background_edges`).
-- [ ] Confirm the map renders on hardware (Dome, Keeper, tiles, HUD).
-- [ ] Playable gameplay loop.
-- [ ] Stable / performant frame rate.
+<details>
+<summary><b>🔧 What was fixed inside <code>LevelStage</code> (click to expand)</b></summary>
 
-Three separate hard blockers inside `LevelStage` have now been addressed: (1) a VRAM out-of-memory crash from the map's `ViewportLights` allocating a 3D+HDR render target; (2) "Failed decoding WebP" crashes from stale `.stex` files holding old oversized image dimensions that overflowed the Vita's WebP decoder; and (3) the two main map shaders exceeding the PowerVR SGX543's limit of 8 fragment texture units (they used 13 and 14 samplers and could not compile). The next step is confirming the map actually renders on hardware.
+<br>
+
+Three separate hard blockers inside `LevelStage` have now been addressed:
+
+1. **VRAM out-of-memory** &mdash; the map's `ViewportLights` was allocating a full-size **3D + HDR** render target with post-processing mipmaps (>150 MB). Forced to 2D (`usage = 0`, `hdr = false`).
+2. **`Failed decoding WebP`** &mdash; 136 stale `.stex` files held **old oversized image dimensions** (resized PNGs never re-imported, e.g. a flag at 2560&times;1536) that overflowed the Vita's WebP decoder. Regenerated from the current PNGs.
+3. **Shaders over the texture-unit limit** &mdash; the PowerVR SGX543 exposes only **8 fragment texture units**, but `map_main_stones` (13 samplers) and `map_background_edges` (14 samplers) could not compile. Both reduced to &le;7 samplers.
+
+The next step is confirming the map actually renders on hardware.
+
+</details>
 
 ---
 
